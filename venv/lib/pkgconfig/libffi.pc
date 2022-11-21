@@ -1,0 +1,11 @@
+prefix=/Users/nikhil/project-SensorFaultDetection/Sensor-Fault_Detection/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/nikhil/project-SensorFaultDetection/Sensor-Fault_Detection/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.2
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

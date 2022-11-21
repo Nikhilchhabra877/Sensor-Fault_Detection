@@ -1,0 +1,1432 @@
+{
+  "build": "py38h2b1e499_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "dnspython >=1.16.0,<3.0.0",
+    "libcxx >=14.0.4",
+    "python >=3.8,<3.9.0a0",
+    "python >=3.8,<3.9.0a0 *_cpython",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pymongo-4.3.2-py38h2b1e499_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/bson/__init__.py",
+    "lib/python3.8/site-packages/bson/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/_helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/binary.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/code.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/codec_options.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/datetime_ms.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/dbref.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/decimal128.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/int64.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/json_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/max_key.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/min_key.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/objectid.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/raw_bson.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/regex.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/son.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/timestamp.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/__pycache__/tz_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/bson/_cbson.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/bson/_helpers.py",
+    "lib/python3.8/site-packages/bson/binary.py",
+    "lib/python3.8/site-packages/bson/code.py",
+    "lib/python3.8/site-packages/bson/codec_options.py",
+    "lib/python3.8/site-packages/bson/codec_options.pyi",
+    "lib/python3.8/site-packages/bson/datetime_ms.py",
+    "lib/python3.8/site-packages/bson/dbref.py",
+    "lib/python3.8/site-packages/bson/decimal128.py",
+    "lib/python3.8/site-packages/bson/errors.py",
+    "lib/python3.8/site-packages/bson/int64.py",
+    "lib/python3.8/site-packages/bson/json_util.py",
+    "lib/python3.8/site-packages/bson/max_key.py",
+    "lib/python3.8/site-packages/bson/min_key.py",
+    "lib/python3.8/site-packages/bson/objectid.py",
+    "lib/python3.8/site-packages/bson/py.typed",
+    "lib/python3.8/site-packages/bson/raw_bson.py",
+    "lib/python3.8/site-packages/bson/regex.py",
+    "lib/python3.8/site-packages/bson/son.py",
+    "lib/python3.8/site-packages/bson/timestamp.py",
+    "lib/python3.8/site-packages/bson/tz_util.py",
+    "lib/python3.8/site-packages/gridfs/__init__.py",
+    "lib/python3.8/site-packages/gridfs/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/gridfs/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/gridfs/__pycache__/grid_file.cpython-38.pyc",
+    "lib/python3.8/site-packages/gridfs/errors.py",
+    "lib/python3.8/site-packages/gridfs/grid_file.py",
+    "lib/python3.8/site-packages/gridfs/py.typed",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pymongo/__init__.py",
+    "lib/python3.8/site-packages/pymongo/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/_csot.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/aggregation.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/auth.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/auth_aws.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/bulk.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/change_stream.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/client_options.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/client_session.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/collation.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/collection.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/command_cursor.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/common.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/compression_support.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/cursor.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/daemon.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/database.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/driver_info.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/encryption.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/encryption_options.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/event_loggers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/hello.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/helpers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/lock.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/max_staleness_selectors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/message.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/mongo_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/monitor.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/monitoring.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/network.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/ocsp_cache.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/ocsp_support.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/operations.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/periodic_executor.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/pool.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/pyopenssl_context.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/read_concern.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/read_preferences.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/response.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/results.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/saslprep.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/server.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/server_api.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/server_description.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/server_selectors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/server_type.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/settings.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/socket_checker.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/srv_resolver.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/ssl_context.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/ssl_support.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/topology.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/topology_description.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/typings.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/uri_parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/__pycache__/write_concern.cpython-38.pyc",
+    "lib/python3.8/site-packages/pymongo/_cmessage.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pymongo/_csot.py",
+    "lib/python3.8/site-packages/pymongo/_version.py",
+    "lib/python3.8/site-packages/pymongo/aggregation.py",
+    "lib/python3.8/site-packages/pymongo/auth.py",
+    "lib/python3.8/site-packages/pymongo/auth_aws.py",
+    "lib/python3.8/site-packages/pymongo/bulk.py",
+    "lib/python3.8/site-packages/pymongo/change_stream.py",
+    "lib/python3.8/site-packages/pymongo/client_options.py",
+    "lib/python3.8/site-packages/pymongo/client_session.py",
+    "lib/python3.8/site-packages/pymongo/collation.py",
+    "lib/python3.8/site-packages/pymongo/collection.py",
+    "lib/python3.8/site-packages/pymongo/command_cursor.py",
+    "lib/python3.8/site-packages/pymongo/common.py",
+    "lib/python3.8/site-packages/pymongo/compression_support.py",
+    "lib/python3.8/site-packages/pymongo/cursor.py",
+    "lib/python3.8/site-packages/pymongo/daemon.py",
+    "lib/python3.8/site-packages/pymongo/database.py",
+    "lib/python3.8/site-packages/pymongo/driver_info.py",
+    "lib/python3.8/site-packages/pymongo/encryption.py",
+    "lib/python3.8/site-packages/pymongo/encryption_options.py",
+    "lib/python3.8/site-packages/pymongo/errors.py",
+    "lib/python3.8/site-packages/pymongo/event_loggers.py",
+    "lib/python3.8/site-packages/pymongo/hello.py",
+    "lib/python3.8/site-packages/pymongo/helpers.py",
+    "lib/python3.8/site-packages/pymongo/lock.py",
+    "lib/python3.8/site-packages/pymongo/max_staleness_selectors.py",
+    "lib/python3.8/site-packages/pymongo/message.py",
+    "lib/python3.8/site-packages/pymongo/mongo_client.py",
+    "lib/python3.8/site-packages/pymongo/monitor.py",
+    "lib/python3.8/site-packages/pymongo/monitoring.py",
+    "lib/python3.8/site-packages/pymongo/network.py",
+    "lib/python3.8/site-packages/pymongo/ocsp_cache.py",
+    "lib/python3.8/site-packages/pymongo/ocsp_support.py",
+    "lib/python3.8/site-packages/pymongo/operations.py",
+    "lib/python3.8/site-packages/pymongo/periodic_executor.py",
+    "lib/python3.8/site-packages/pymongo/pool.py",
+    "lib/python3.8/site-packages/pymongo/py.typed",
+    "lib/python3.8/site-packages/pymongo/pyopenssl_context.py",
+    "lib/python3.8/site-packages/pymongo/read_concern.py",
+    "lib/python3.8/site-packages/pymongo/read_preferences.py",
+    "lib/python3.8/site-packages/pymongo/response.py",
+    "lib/python3.8/site-packages/pymongo/results.py",
+    "lib/python3.8/site-packages/pymongo/saslprep.py",
+    "lib/python3.8/site-packages/pymongo/server.py",
+    "lib/python3.8/site-packages/pymongo/server_api.py",
+    "lib/python3.8/site-packages/pymongo/server_description.py",
+    "lib/python3.8/site-packages/pymongo/server_selectors.py",
+    "lib/python3.8/site-packages/pymongo/server_type.py",
+    "lib/python3.8/site-packages/pymongo/settings.py",
+    "lib/python3.8/site-packages/pymongo/socket_checker.py",
+    "lib/python3.8/site-packages/pymongo/srv_resolver.py",
+    "lib/python3.8/site-packages/pymongo/ssl_context.py",
+    "lib/python3.8/site-packages/pymongo/ssl_support.py",
+    "lib/python3.8/site-packages/pymongo/topology.py",
+    "lib/python3.8/site-packages/pymongo/topology_description.py",
+    "lib/python3.8/site-packages/pymongo/typings.py",
+    "lib/python3.8/site-packages/pymongo/uri_parser.py",
+    "lib/python3.8/site-packages/pymongo/write_concern.py"
+  ],
+  "fn": "pymongo-4.3.2-py38h2b1e499_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pymongo-4.3.2-py38h2b1e499_1",
+    "type": 1
+  },
+  "md5": "33bdf7be2059a7a40b2cfd468d122292",
+  "name": "pymongo",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pymongo-4.3.2-py38h2b1e499_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/bson/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "77602dd0943f16ee5888bc9feda6852cdff2547ce37d61a27cfb1dcff6b3e603",
+        "sha256_in_prefix": "77602dd0943f16ee5888bc9feda6852cdff2547ce37d61a27cfb1dcff6b3e603",
+        "size_in_bytes": 47997
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad699307a1156de9a6d63173f0fdabb912de90e980964d973d7db0faf9f1fad4",
+        "sha256_in_prefix": "ad699307a1156de9a6d63173f0fdabb912de90e980964d973d7db0faf9f1fad4",
+        "size_in_bytes": 38159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/_helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0acd9b0223dabbd9a68581cdc22f8e961aafaadb159c2f1f9f6261e27ce487a3",
+        "sha256_in_prefix": "0acd9b0223dabbd9a68581cdc22f8e961aafaadb159c2f1f9f6261e27ce487a3",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/binary.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "11dcae4911a49513e8ff1b10b1c3483cc5482ad68d687c9fcd24a836ade30c98",
+        "sha256_in_prefix": "11dcae4911a49513e8ff1b10b1c3483cc5482ad68d687c9fcd24a836ade30c98",
+        "size_in_bytes": 6980
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/code.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a375ee2d0a9a486feb5e2874d791fe8e54aad5b1decfbef9d2002095440fdd64",
+        "sha256_in_prefix": "a375ee2d0a9a486feb5e2874d791fe8e54aad5b1decfbef9d2002095440fdd64",
+        "size_in_bytes": 3068
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/codec_options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7e82eb30a896fa4f67bdf4617c6a3efa513faccc414f7515b1b96af22501f92",
+        "sha256_in_prefix": "f7e82eb30a896fa4f67bdf4617c6a3efa513faccc414f7515b1b96af22501f92",
+        "size_in_bytes": 14775
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/datetime_ms.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc6ebffcb6389d92b2958df38eeef787e623015c8a884b48802fb9736fbdbe68",
+        "sha256_in_prefix": "fc6ebffcb6389d92b2958df38eeef787e623015c8a884b48802fb9736fbdbe68",
+        "size_in_bytes": 5501
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/dbref.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e75b6102fe900e1f534b2b1a0ea4cac3fc009629f6dedba968c6fb0e4a4137d3",
+        "sha256_in_prefix": "e75b6102fe900e1f534b2b1a0ea4cac3fc009629f6dedba968c6fb0e4a4137d3",
+        "size_in_bytes": 4672
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/decimal128.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e71f65171cd797c210270122274379d8c4f9437ae2893ae9ae2721af4621816",
+        "sha256_in_prefix": "4e71f65171cd797c210270122274379d8c4f9437ae2893ae9ae2721af4621816",
+        "size_in_bytes": 9573
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "112dea34525d170c9bb4a75651e5c5fef9167ac73f20a664d5ed4fb840a7c1ca",
+        "sha256_in_prefix": "112dea34525d170c9bb4a75651e5c5fef9167ac73f20a664d5ed4fb840a7c1ca",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/int64.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "97db7a5f49badf0b061cd32d71b8ca523b13ff2a2a96842e7fcb93faa79901a4",
+        "sha256_in_prefix": "97db7a5f49badf0b061cd32d71b8ca523b13ff2a2a96842e7fcb93faa79901a4",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/json_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6dadbe1aa37b9bc7bcb726a466c9bba1ad64d4c01803d65269d4c7ed46c479a7",
+        "sha256_in_prefix": "6dadbe1aa37b9bc7bcb726a466c9bba1ad64d4c01803d65269d4c7ed46c479a7",
+        "size_in_bytes": 25911
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/max_key.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "18060a1c2e46b1cd23a6d6a57eab52bb93f8626e6e490cd48ea573db2b90ed6f",
+        "sha256_in_prefix": "18060a1c2e46b1cd23a6d6a57eab52bb93f8626e6e490cd48ea573db2b90ed6f",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/min_key.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "752192b786b293a162385c9f0e1088a00216cf37a8fd8009a9469fba5aee4a01",
+        "sha256_in_prefix": "752192b786b293a162385c9f0e1088a00216cf37a8fd8009a9469fba5aee4a01",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/objectid.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3981698dd0ef7b01032527b0baeea3947d0b8165c7e3e5e7ea216e894d6be940",
+        "sha256_in_prefix": "3981698dd0ef7b01032527b0baeea3947d0b8165c7e3e5e7ea216e894d6be940",
+        "size_in_bytes": 9015
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/raw_bson.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6483bc7d1c1192696b79d724f8790ac0a6e974980080a34538202d14b21916c7",
+        "sha256_in_prefix": "6483bc7d1c1192696b79d724f8790ac0a6e974980080a34538202d14b21916c7",
+        "size_in_bytes": 7088
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/regex.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c60aa92d71129e5c6c52464593abfef91349baa5ba883a1610355133b152b4fa",
+        "sha256_in_prefix": "c60aa92d71129e5c6c52464593abfef91349baa5ba883a1610355133b152b4fa",
+        "size_in_bytes": 4464
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/son.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb5e010b615b82d1d16aca09d0c9c457b2c6514adeada4debc13c1998f46aaa8",
+        "sha256_in_prefix": "fb5e010b615b82d1d16aca09d0c9c457b2c6514adeada4debc13c1998f46aaa8",
+        "size_in_bytes": 6767
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/timestamp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4556b5df9f86893ac9cddeb9f1964efbb8c422d84f1acba46b592467529f815",
+        "sha256_in_prefix": "e4556b5df9f86893ac9cddeb9f1964efbb8c422d84f1acba46b592467529f815",
+        "size_in_bytes": 4166
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/__pycache__/tz_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0376a8f4a8f160d616cebf8186059423c77fd17c16592de9a0241bf46fcb36d0",
+        "sha256_in_prefix": "0376a8f4a8f160d616cebf8186059423c77fd17c16592de9a0241bf46fcb36d0",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/_cbson.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "e6b768d120a9cdb24e94a3f6ead04043c342da6c4274208f0d189f9750573353",
+        "sha256_in_prefix": "e6b768d120a9cdb24e94a3f6ead04043c342da6c4274208f0d189f9750573353",
+        "size_in_bytes": 94144
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3a1d523bdf63a547980b13264ebe1f95e56c59630150d9fb28536ad7d448559a",
+        "sha256_in_prefix": "3a1d523bdf63a547980b13264ebe1f95e56c59630150d9fb28536ad7d448559a",
+        "size_in_bytes": 1338
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/binary.py",
+        "path_type": "hardlink",
+        "sha256": "d57eed29434e0d95465e7a87a10099099c2816bf25a83f7709a2cbdbece768e4",
+        "sha256_in_prefix": "d57eed29434e0d95465e7a87a10099099c2816bf25a83f7709a2cbdbece768e4",
+        "size_in_bytes": 12370
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/code.py",
+        "path_type": "hardlink",
+        "sha256": "4fc603f37bcea244f3103b37893762d145e1df2eb1071c3c985f4b687c304b45",
+        "sha256_in_prefix": "4fc603f37bcea244f3103b37893762d145e1df2eb1071c3c985f4b687c304b45",
+        "size_in_bytes": 3473
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/codec_options.py",
+        "path_type": "hardlink",
+        "sha256": "601095ead14582a6a75836888f1fcaf0e78d75d52436f4b4b76f3ac126464919",
+        "sha256_in_prefix": "601095ead14582a6a75836888f1fcaf0e78d75d52436f4b4b76f3ac126464919",
+        "size_in_bytes": 17219
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/codec_options.pyi",
+        "path_type": "hardlink",
+        "sha256": "f3cf8060fdc497b0f90e4887192f45d9a3550e1d080d0e1cbf6e45c94a9dc277",
+        "sha256_in_prefix": "f3cf8060fdc497b0f90e4887192f45d9a3550e1d080d0e1cbf6e45c94a9dc277",
+        "size_in_bytes": 3564
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/datetime_ms.py",
+        "path_type": "hardlink",
+        "sha256": "ae673e5ced449b5ba86dd312255d513e035d152b2de550a6a5315dcd1e964f06",
+        "sha256_in_prefix": "ae673e5ced449b5ba86dd312255d513e035d152b2de550a6a5315dcd1e964f06",
+        "size_in_bytes": 6011
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/dbref.py",
+        "path_type": "hardlink",
+        "sha256": "96c158cb653acc4957ace0f7439be42679403adb3c3da1860c5a41dbec478a80",
+        "sha256_in_prefix": "96c158cb653acc4957ace0f7439be42679403adb3c3da1860c5a41dbec478a80",
+        "size_in_bytes": 4772
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/decimal128.py",
+        "path_type": "hardlink",
+        "sha256": "97a493dfd322a46906aef5917bef70be8752eb4d6cb48bc35a02d7d467e0c852",
+        "sha256_in_prefix": "97a493dfd322a46906aef5917bef70be8752eb4d6cb48bc35a02d7d467e0c852",
+        "size_in_bytes": 10220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/errors.py",
+        "path_type": "hardlink",
+        "sha256": "976481902f20c387d61ed377ce82edada05d4fbc55908958127610ee59669f17",
+        "sha256_in_prefix": "976481902f20c387d61ed377ce82edada05d4fbc55908958127610ee59669f17",
+        "size_in_bytes": 1134
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/int64.py",
+        "path_type": "hardlink",
+        "sha256": "5638fb7d54f3ac68dc66509a1b5d097f82733fe656f3ce01e110d4a7761c223d",
+        "sha256_in_prefix": "5638fb7d54f3ac68dc66509a1b5d097f82733fe656f3ce01e110d4a7761c223d",
+        "size_in_bytes": 1159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/json_util.py",
+        "path_type": "hardlink",
+        "sha256": "112afd15b8c8d0d1d623897e33393b33af64cf51c4e650a405da7456a6e3f207",
+        "sha256_in_prefix": "112afd15b8c8d0d1d623897e33393b33af64cf51c4e650a405da7456a6e3f207",
+        "size_in_bytes": 36074
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/max_key.py",
+        "path_type": "hardlink",
+        "sha256": "47c14f25a7ffb13420e108fde145ff4f4aedd6edb9cdcbb6f9d7b9778ecc8ab6",
+        "sha256_in_prefix": "47c14f25a7ffb13420e108fde145ff4f4aedd6edb9cdcbb6f9d7b9778ecc8ab6",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/min_key.py",
+        "path_type": "hardlink",
+        "sha256": "3a0666e2a5cf49d2d814899639ac272e578b8dc0c746628f7f1e1c882cf849e0",
+        "sha256_in_prefix": "3a0666e2a5cf49d2d814899639ac272e578b8dc0c746628f7f1e1c882cf849e0",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/objectid.py",
+        "path_type": "hardlink",
+        "sha256": "67144af7564921b7d6717f22eca4e08c7031d4e84ee14083988ab9c360ea4572",
+        "sha256_in_prefix": "67144af7564921b7d6717f22eca4e08c7031d4e84ee14083988ab9c360ea4572",
+        "size_in_bytes": 9290
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/py.typed",
+        "path_type": "hardlink",
+        "sha256": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "sha256_in_prefix": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/raw_bson.py",
+        "path_type": "hardlink",
+        "sha256": "28959e148f30c243721b9ad792e29527489d36274b0e2b321ebdedf072d54adf",
+        "sha256_in_prefix": "28959e148f30c243721b9ad792e29527489d36274b0e2b321ebdedf072d54adf",
+        "size_in_bytes": 7407
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/regex.py",
+        "path_type": "hardlink",
+        "sha256": "514a79e6d4bb4e3d54cc5123b3928d52c9cebae075b84e75edfb273391d49100",
+        "sha256_in_prefix": "514a79e6d4bb4e3d54cc5123b3928d52c9cebae075b84e75edfb273391d49100",
+        "size_in_bytes": 4602
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/son.py",
+        "path_type": "hardlink",
+        "sha256": "0849ade167aff54f6807483caba857b20f0e259c5eea3f3fcc3ab925088cbd14",
+        "sha256_in_prefix": "0849ade167aff54f6807483caba857b20f0e259c5eea3f3fcc3ab925088cbd14",
+        "size_in_bytes": 6449
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/timestamp.py",
+        "path_type": "hardlink",
+        "sha256": "3ad7e1bec130807992a4e564503282f4b2a92618743b8e2c7773e6bda2776965",
+        "sha256_in_prefix": "3ad7e1bec130807992a4e564503282f4b2a92618743b8e2c7773e6bda2776965",
+        "size_in_bytes": 4225
+      },
+      {
+        "_path": "lib/python3.8/site-packages/bson/tz_util.py",
+        "path_type": "hardlink",
+        "sha256": "510b04efeefd9619ba9f0aca557364f102aeb563df35d286a7f37b034b93778c",
+        "sha256_in_prefix": "510b04efeefd9619ba9f0aca557364f102aeb563df35d286a7f37b034b93778c",
+        "size_in_bytes": 1726
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0e42589388a94b635e3a91fc232c9ce5ce9aba2a6bb0a8eae08577599d3fb9d9",
+        "sha256_in_prefix": "0e42589388a94b635e3a91fc232c9ce5ce9aba2a6bb0a8eae08577599d3fb9d9",
+        "size_in_bytes": 38462
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27671b6274c8d2b8de615d0c958bf2800a0a0c5df468e69e8e42e62f882de642",
+        "sha256_in_prefix": "27671b6274c8d2b8de615d0c958bf2800a0a0c5df468e69e8e42e62f882de642",
+        "size_in_bytes": 36216
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9125c86bbd9b3613a98c43232d86a16d84b1beea2aaa030c67aacffd79a7c25a",
+        "sha256_in_prefix": "9125c86bbd9b3613a98c43232d86a16d84b1beea2aaa030c67aacffd79a7c25a",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/__pycache__/grid_file.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6309535445c27a01fcc882cea5a62fcd21aef4852c0bd1682b8e54e10593d830",
+        "sha256_in_prefix": "6309535445c27a01fcc882cea5a62fcd21aef4852c0bd1682b8e54e10593d830",
+        "size_in_bytes": 29220
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/errors.py",
+        "path_type": "hardlink",
+        "sha256": "67b13e5e4c6dad635fa1bddc4c14a0791953bc7706d360c23efe17fc49af0644",
+        "sha256_in_prefix": "67b13e5e4c6dad635fa1bddc4c14a0791953bc7706d360c23efe17fc49af0644",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/grid_file.py",
+        "path_type": "hardlink",
+        "sha256": "ccb3e8700b5c363093d38de3ca1f7a7e8e20474e0c9944ad6d2c3199b8c73a01",
+        "sha256_in_prefix": "ccb3e8700b5c363093d38de3ca1f7a7e8e20474e0c9944ad6d2c3199b8c73a01",
+        "size_in_bytes": 32724
+      },
+      {
+        "_path": "lib/python3.8/site-packages/gridfs/py.typed",
+        "path_type": "hardlink",
+        "sha256": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "sha256_in_prefix": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "sha256_in_prefix": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "size_in_bytes": 11357
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "843116cf75335773f82865dabf60a317ae869a248949553c1bd4d3901b81498f",
+        "sha256_in_prefix": "843116cf75335773f82865dabf60a317ae869a248949553c1bd4d3901b81498f",
+        "size_in_bytes": 8473
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f7a356635f68fe6f6a7b2a73bdeae111c99095262a859e0b382e165563bab5f6",
+        "sha256_in_prefix": "f7a356635f68fe6f6a7b2a73bdeae111c99095262a859e0b382e165563bab5f6",
+        "size_in_bytes": 11229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "bbcf79b81e052239b5a6e71c4da3d3979edda2b8e7704632810c48b4a1ebfd3d",
+        "sha256_in_prefix": "bbcf79b81e052239b5a6e71c4da3d3979edda2b8e7704632810c48b4a1ebfd3d",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a6f9c1b8a2fc40bc0e248d7ffb1efa71dd1ab387bf783c81526367b40763f950",
+        "sha256_in_prefix": "a6f9c1b8a2fc40bc0e248d7ffb1efa71dd1ab387bf783c81526367b40763f950",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo-4.3.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3a29d5a230dd39fa350eca7e3517eb65da7a81c249e1b3d1abad6f4a0e6fc80b",
+        "sha256_in_prefix": "3a29d5a230dd39fa350eca7e3517eb65da7a81c249e1b3d1abad6f4a0e6fc80b",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d89e392061efe0bda7b1b7206a34a3d020c08b2fd479a4f3d9d7342540e54260",
+        "sha256_in_prefix": "d89e392061efe0bda7b1b7206a34a3d020c08b2fd479a4f3d9d7342540e54260",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae386d62ba6322a34e91e7f16b60db6e41609a2884453a4f77f85279acecd73e",
+        "sha256_in_prefix": "ae386d62ba6322a34e91e7f16b60db6e41609a2884453a4f77f85279acecd73e",
+        "size_in_bytes": 3871
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/_csot.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "97af8df2def1eabbb62c7f7ce1aa992c339ee6e68d56712199ecee6c0bdb68c1",
+        "sha256_in_prefix": "97af8df2def1eabbb62c7f7ce1aa992c339ee6e68d56712199ecee6c0bdb68c1",
+        "size_in_bytes": 3606
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b599c50326dcc7ba1f4b677c75fa6ee326aa0932f00089f8289c102250184772",
+        "sha256_in_prefix": "b599c50326dcc7ba1f4b677c75fa6ee326aa0932f00089f8289c102250184772",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/aggregation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c4876eb429e1204a2637133a7434871043e2af21b2a4dd9b58997216e988f56",
+        "sha256_in_prefix": "1c4876eb429e1204a2637133a7434871043e2af21b2a4dd9b58997216e988f56",
+        "size_in_bytes": 6225
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/auth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f905d50931ddd28658c59088702e4b46512fc45676d5e9175c6ea494641b2088",
+        "sha256_in_prefix": "f905d50931ddd28658c59088702e4b46512fc45676d5e9175c6ea494641b2088",
+        "size_in_bytes": 13149
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/auth_aws.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d7d27bc588c90f47d19cc7dc31750801b7c1331da405ff015e31cc00d028eb9",
+        "sha256_in_prefix": "8d7d27bc588c90f47d19cc7dc31750801b7c1331da405ff015e31cc00d028eb9",
+        "size_in_bytes": 2836
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/bulk.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "554946160d0d0c10dac810dc2ee059b140c8cc0295f314775520fca72101b8ef",
+        "sha256_in_prefix": "554946160d0d0c10dac810dc2ee059b140c8cc0295f314775520fca72101b8ef",
+        "size_in_bytes": 11903
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/change_stream.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e182d110fa96bd7e451769d2f546c72462750b186c339cf8bd3da8dd02757a2",
+        "sha256_in_prefix": "8e182d110fa96bd7e451769d2f546c72462750b186c339cf8bd3da8dd02757a2",
+        "size_in_bytes": 14834
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/client_options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0da9d0cb79c37e688aa1492fd42d68828d083561845f44ec2c9bac31c97f1a00",
+        "sha256_in_prefix": "0da9d0cb79c37e688aa1492fd42d68828d083561845f44ec2c9bac31c97f1a00",
+        "size_in_bytes": 9805
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/client_session.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4886078fe5b19de00ae47890d1959a8b5a1af6a6c7c3d4a831bfbb0cdb6f201c",
+        "sha256_in_prefix": "4886078fe5b19de00ae47890d1959a8b5a1af6a6c7c3d4a831bfbb0cdb6f201c",
+        "size_in_bytes": 36532
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/collation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bce1d8f5461839131aa76d865e0919613baa2687e7b086678f70e15a706dc13a",
+        "sha256_in_prefix": "bce1d8f5461839131aa76d865e0919613baa2687e7b086678f70e15a706dc13a",
+        "size_in_bytes": 6869
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/collection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d78d913773f773f1e508be1b416cd2fb317fe4695194dbb60eaeb9a0d29d8fc",
+        "sha256_in_prefix": "0d78d913773f773f1e508be1b416cd2fb317fe4695194dbb60eaeb9a0d29d8fc",
+        "size_in_bytes": 111604
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/command_cursor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "00383ab41a2d5f27c9e67b84e081b704a4cf17980e2963e25ee8397edd7e3dae",
+        "sha256_in_prefix": "00383ab41a2d5f27c9e67b84e081b704a4cf17980e2963e25ee8397edd7e3dae",
+        "size_in_bytes": 10820
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/common.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee7031a229cbe44646b18da05ef69928ee98addfe9c5f73c2a3ce860344eb2b5",
+        "sha256_in_prefix": "ee7031a229cbe44646b18da05ef69928ee98addfe9c5f73c2a3ce860344eb2b5",
+        "size_in_bytes": 27813
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/compression_support.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "12fd86f62f29335eb573b13b8445a6f940269d18a6d5027f8ef5c0f54d576007",
+        "sha256_in_prefix": "12fd86f62f29335eb573b13b8445a6f940269d18a6d5027f8ef5c0f54d576007",
+        "size_in_bytes": 3869
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/cursor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3f7b49fd6c5fd8728f4c13911f93e25152b440e9a3a1070990115819edec3c72",
+        "sha256_in_prefix": "3f7b49fd6c5fd8728f4c13911f93e25152b440e9a3a1070990115819edec3c72",
+        "size_in_bytes": 37762
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/daemon.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "80b8ba574cd70d81330374b7a29a2119a34dce01a312fad3d20da3cf9f861a73",
+        "sha256_in_prefix": "80b8ba574cd70d81330374b7a29a2119a34dce01a312fad3d20da3cf9f861a73",
+        "size_in_bytes": 2721
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/database.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "96bfe7346bc8b684c2d71d0f8fbd586bb65db89145b0e07442d17680b68e6ff3",
+        "sha256_in_prefix": "96bfe7346bc8b684c2d71d0f8fbd586bb65db89145b0e07442d17680b68e6ff3",
+        "size_in_bytes": 42339
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/driver_info.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c42a0790609f86c375e5dce397e821c1a9e2e8342d070912119c283d1e0dadd8",
+        "sha256_in_prefix": "c42a0790609f86c375e5dce397e821c1a9e2e8342d070912119c283d1e0dadd8",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/encryption.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3c17263cb355e4b6390e217c777acefa9f4fefcf538e93768773053c0aca43a",
+        "sha256_in_prefix": "d3c17263cb355e4b6390e217c777acefa9f4fefcf538e93768773053c0aca43a",
+        "size_in_bytes": 29917
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/encryption_options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba9606949ea30d5ef452dad0e122ddc36c32bf3800c0ad733d0306761500989a",
+        "sha256_in_prefix": "ba9606949ea30d5ef452dad0e122ddc36c32bf3800c0ad733d0306761500989a",
+        "size_in_bytes": 10430
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0195ef479ab50422195c54a032b70919cee5848d14124e5d1b6712aac59b3e16",
+        "sha256_in_prefix": "0195ef479ab50422195c54a032b70919cee5848d14124e5d1b6712aac59b3e16",
+        "size_in_bytes": 13943
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/event_loggers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d1386865360ac2169c3e0f52766a2148e519246a7f7fedb1eb04dcecdda794b3",
+        "sha256_in_prefix": "d1386865360ac2169c3e0f52766a2148e519246a7f7fedb1eb04dcecdda794b3",
+        "size_in_bytes": 9703
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/hello.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c2a0bd705f600f6558e0d27e2178bc54d7ead04036593b8c6916e151c862eb7",
+        "sha256_in_prefix": "6c2a0bd705f600f6558e0d27e2178bc54d7ead04036593b8c6916e151c862eb7",
+        "size_in_bytes": 7211
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/helpers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4df89ead312fbacd274460aefb54fbe225394cc96f1e111c8ea6158451de583e",
+        "sha256_in_prefix": "4df89ead312fbacd274460aefb54fbe225394cc96f1e111c8ea6158451de583e",
+        "size_in_bytes": 5678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/lock.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9fbf766f169de72ed113292e00439ed31b204e3eb3f07e75437f087761bd6890",
+        "sha256_in_prefix": "9fbf766f169de72ed113292e00439ed31b204e3eb3f07e75437f087761bd6890",
+        "size_in_bytes": 770
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/max_staleness_selectors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4aee3956277cd124558f98ccad8d280f95a90793ca06b75bc0e55a427150f3e8",
+        "sha256_in_prefix": "4aee3956277cd124558f98ccad8d280f95a90793ca06b75bc0e55a427150f3e8",
+        "size_in_bytes": 2434
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/message.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fa831d6bdfea6fafcdd1308cfaade03349843613cd364eb7d4771874f93fbbb",
+        "sha256_in_prefix": "7fa831d6bdfea6fafcdd1308cfaade03349843613cd364eb7d4771874f93fbbb",
+        "size_in_bytes": 33084
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/mongo_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fd77e313bb69268353436641ed0a923a3bf72ece4ddbde502632f6b6432065d",
+        "sha256_in_prefix": "8fd77e313bb69268353436641ed0a923a3bf72ece4ddbde502632f6b6432065d",
+        "size_in_bytes": 80523
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/monitor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fce8fb359ec890fe10cfbda019e73e7f19d0680234be00ac52aa836a4172eb86",
+        "sha256_in_prefix": "fce8fb359ec890fe10cfbda019e73e7f19d0680234be00ac52aa836a4172eb86",
+        "size_in_bytes": 11649
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/monitoring.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "87625fb74da1d3104a081fc2eccd4f4c17d0f64745cab543f8035eb84f8df9a4",
+        "sha256_in_prefix": "87625fb74da1d3104a081fc2eccd4f4c17d0f64745cab543f8035eb84f8df9a4",
+        "size_in_bytes": 62044
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/network.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "121dfc47ca7a25fcb46ba3e5ffb892d2ef1e39b776cf1d82cb8b6dd202a0d9fe",
+        "sha256_in_prefix": "121dfc47ca7a25fcb46ba3e5ffb892d2ef1e39b776cf1d82cb8b6dd202a0d9fe",
+        "size_in_bytes": 7110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/ocsp_cache.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "89eb880e752197e9e6ea22aff12887346d8cadac060755a40a7d8bcb91f1c962",
+        "sha256_in_prefix": "89eb880e752197e9e6ea22aff12887346d8cadac060755a40a7d8bcb91f1c962",
+        "size_in_bytes": 2162
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/ocsp_support.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3e7755f11794de05793aa6c692db4492a3973583d16c6283790836878a429f7",
+        "sha256_in_prefix": "c3e7755f11794de05793aa6c692db4492a3973583d16c6283790836878a429f7",
+        "size_in_bytes": 9113
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/operations.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "11fdd65ea09eaa5a4722bd0d7127df728266cad5e3d0daed3de8203dccdda50d",
+        "sha256_in_prefix": "11fdd65ea09eaa5a4722bd0d7127df728266cad5e3d0daed3de8203dccdda50d",
+        "size_in_bytes": 17390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/periodic_executor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "eec3f50a3c60f7cff8e9a97db2067644e8819d6e1d87065b6ba1e1fedff6a73b",
+        "sha256_in_prefix": "eec3f50a3c60f7cff8e9a97db2067644e8819d6e1d87065b6ba1e1fedff6a73b",
+        "size_in_bytes": 4443
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/pool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "34ffd7cb8ab671b38ce02e3fe8532fb80a6e55e3ad6aa830a6f2759e1944c4b7",
+        "sha256_in_prefix": "34ffd7cb8ab671b38ce02e3fe8532fb80a6e55e3ad6aa830a6f2759e1944c4b7",
+        "size_in_bytes": 41072
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/pyopenssl_context.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2cf65555626fb536ffa525ba03ec6c34ec10ecaa0a19d88f2f70f651d61e2787",
+        "sha256_in_prefix": "2cf65555626fb536ffa525ba03ec6c34ec10ecaa0a19d88f2f70f651d61e2787",
+        "size_in_bytes": 11597
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/read_concern.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "33c42b8eba3fbf6a4c9c6332a090f84c0f71e186d38a277e9e60adcfa418868b",
+        "sha256_in_prefix": "33c42b8eba3fbf6a4c9c6332a090f84c0f71e186d38a277e9e60adcfa418868b",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/read_preferences.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e88c8663678a39c1bd96afb9b718990e7da9c6e69a37f2486591c361839937a4",
+        "sha256_in_prefix": "e88c8663678a39c1bd96afb9b718990e7da9c6e69a37f2486591c361839937a4",
+        "size_in_bytes": 20750
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/response.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f4b818122d3bcba28f4f1d523302a857f82b52cfa5249e99268eddbff3bc69d7",
+        "sha256_in_prefix": "f4b818122d3bcba28f4f1d523302a857f82b52cfa5249e99268eddbff3bc69d7",
+        "size_in_bytes": 3709
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/results.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0106e84bd74420de961dc75fa6ec7865282e2d8ffcbcb7877f813515c9035c0d",
+        "sha256_in_prefix": "0106e84bd74420de961dc75fa6ec7865282e2d8ffcbcb7877f813515c9035c0d",
+        "size_in_bytes": 8702
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/saslprep.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b7d86c869d50acf605a1485ab41f04652d44b0d62f7dfbc46c71219249eff1ed",
+        "sha256_in_prefix": "b7d86c869d50acf605a1485ab41f04652d44b0d62f7dfbc46c71219249eff1ed",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/server.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "875fc28afc1af937264ebef199f1f86d819987dbf0e5b05759cc16e3ffeea0b0",
+        "sha256_in_prefix": "875fc28afc1af937264ebef199f1f86d819987dbf0e5b05759cc16e3ffeea0b0",
+        "size_in_bytes": 5834
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/server_api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7da0059f6a16872afa8ee15fb7db26a2b939ed63c9bdade638f229cf111753a0",
+        "sha256_in_prefix": "7da0059f6a16872afa8ee15fb7db26a2b939ed63c9bdade638f229cf111753a0",
+        "size_in_bytes": 5518
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/server_description.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb4194987983c3d5ad924143796199ba94f09057a76e543ce27fc032b86c5b98",
+        "sha256_in_prefix": "bb4194987983c3d5ad924143796199ba94f09057a76e543ce27fc032b86c5b98",
+        "size_in_bytes": 8839
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/server_selectors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9e452a6313aad5b6f021b60da75f1e2f7309849ba8580eabfbb6a7e09c3214f",
+        "sha256_in_prefix": "d9e452a6313aad5b6f021b60da75f1e2f7309849ba8580eabfbb6a7e09c3214f",
+        "size_in_bytes": 5724
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/server_type.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "13206b106ae07ca2d32856a9904162f15c05c1c84aa6927b6f7ed941db8c1fdb",
+        "sha256_in_prefix": "13206b106ae07ca2d32856a9904162f15c05c1c84aa6927b6f7ed941db8c1fdb",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/settings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f27522d23a5f3bb4d2afdd1bf902f6415cb3d2def9370107ba40135569c336bb",
+        "sha256_in_prefix": "f27522d23a5f3bb4d2afdd1bf902f6415cb3d2def9370107ba40135569c336bb",
+        "size_in_bytes": 5154
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/socket_checker.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "01e682dc85cc0665806bb71a080c9c4504fc4829cd15c34c9f1778a386fe83b6",
+        "sha256_in_prefix": "01e682dc85cc0665806bb71a080c9c4504fc4829cd15c34c9f1778a386fe83b6",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/srv_resolver.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9cce61f049dfc75ae3f1f89a1b5cc07cf381a210dbcd4a36ce767a85f571e90",
+        "sha256_in_prefix": "d9cce61f049dfc75ae3f1f89a1b5cc07cf381a210dbcd4a36ce767a85f571e90",
+        "size_in_bytes": 3743
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/ssl_context.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a7d987a9dbd6e69eb57716b8fa0a0b8f7e6ded4f4bbef1dbc169230bbca023b",
+        "sha256_in_prefix": "1a7d987a9dbd6e69eb57716b8fa0a0b8f7e6ded4f4bbef1dbc169230bbca023b",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/ssl_support.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7132c855b1b85c81dbfb7525f4817fe5c487589b96623218552b7212d93a0701",
+        "sha256_in_prefix": "7132c855b1b85c81dbfb7525f4817fe5c487589b96623218552b7212d93a0701",
+        "size_in_bytes": 2056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/topology.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a355257b23d4708fd8aa47edc8162051abd9609d2883999b44eccd3808811bd6",
+        "sha256_in_prefix": "a355257b23d4708fd8aa47edc8162051abd9609d2883999b44eccd3808811bd6",
+        "size_in_bytes": 23320
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/topology_description.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0ee8a74543d7c3069b5077f7c2063cc3481d79bbe1bf8f7a93caf7f819f833f",
+        "sha256_in_prefix": "f0ee8a74543d7c3069b5077f7c2063cc3481d79bbe1bf8f7a93caf7f819f833f",
+        "size_in_bytes": 17788
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/typings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66dc785ea9ddf5a72bc42f91f2571a2803219aea2377150f52f82572415978de",
+        "sha256_in_prefix": "66dc785ea9ddf5a72bc42f91f2571a2803219aea2377150f52f82572415978de",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/uri_parser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e93fcc6b9f7a7c18d4cebbe9298910d47243aeb245de59d06d1a40697b9afca",
+        "sha256_in_prefix": "3e93fcc6b9f7a7c18d4cebbe9298910d47243aeb245de59d06d1a40697b9afca",
+        "size_in_bytes": 16745
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/__pycache__/write_concern.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88036ba985bfc694338f5cb7a5581eb2ca2fce701530511189b67da08f96dcc9",
+        "sha256_in_prefix": "88036ba985bfc694338f5cb7a5581eb2ca2fce701530511189b67da08f96dcc9",
+        "size_in_bytes": 4596
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/_cmessage.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "763a870c390afd508bd6e920846326a224bd5aba82bd6d1354083fcff2190895",
+        "sha256_in_prefix": "763a870c390afd508bd6e920846326a224bd5aba82bd6d1354083fcff2190895",
+        "size_in_bytes": 53872
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/_csot.py",
+        "path_type": "hardlink",
+        "sha256": "e6fa8cabf613dcfe7191c392004d06bb823ebe641b4e24e003f319ccf72da2f6",
+        "sha256_in_prefix": "e6fa8cabf613dcfe7191c392004d06bb823ebe641b4e24e003f319ccf72da2f6",
+        "size_in_bytes": 3596
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3ffbeaa3733931cf8fafd57f6962ca3bff68eb7426066856841e18b033e91c39",
+        "sha256_in_prefix": "3ffbeaa3733931cf8fafd57f6962ca3bff68eb7426066856841e18b033e91c39",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/aggregation.py",
+        "path_type": "hardlink",
+        "sha256": "67fe8c7701996b7fb0ee1753c34e05751eaee905d36c40f3a54736f501aeec89",
+        "sha256_in_prefix": "67fe8c7701996b7fb0ee1753c34e05751eaee905d36c40f3a54736f501aeec89",
+        "size_in_bytes": 8170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/auth.py",
+        "path_type": "hardlink",
+        "sha256": "84f5dbd2881ff1f6ec1bf8abcff989bb646a7885adf8322cc83d370c82a150a7",
+        "sha256_in_prefix": "84f5dbd2881ff1f6ec1bf8abcff989bb646a7885adf8322cc83d370c82a150a7",
+        "size_in_bytes": 19908
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/auth_aws.py",
+        "path_type": "hardlink",
+        "sha256": "fb72a1e324eaa9846c60ba66b8c74b6ef4617113696eb816e805b078650122c8",
+        "sha256_in_prefix": "fb72a1e324eaa9846c60ba66b8c74b6ef4617113696eb816e805b078650122c8",
+        "size_in_bytes": 3662
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/bulk.py",
+        "path_type": "hardlink",
+        "sha256": "357730e989b276ced19c889af1c1fc175d0aa17b7eab39219d691d2bcae15651",
+        "sha256_in_prefix": "357730e989b276ced19c889af1c1fc175d0aa17b7eab39219d691d2bcae15651",
+        "size_in_bytes": 18956
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/change_stream.py",
+        "path_type": "hardlink",
+        "sha256": "3cc6b9522813cd232fd0a27130fdd69f9d903ebd143dbc1d533b42d882cdc25d",
+        "sha256_in_prefix": "3cc6b9522813cd232fd0a27130fdd69f9d903ebd143dbc1d533b42d882cdc25d",
+        "size_in_bytes": 18109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/client_options.py",
+        "path_type": "hardlink",
+        "sha256": "325116007928fdd4267dad6eca4fda1854d0ee08ddbf44f18d251039420cc8a6",
+        "sha256_in_prefix": "325116007928fdd4267dad6eca4fda1854d0ee08ddbf44f18d251039420cc8a6",
+        "size_in_bytes": 11023
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/client_session.py",
+        "path_type": "hardlink",
+        "sha256": "74e8d2388206b8efed0e5ebdc8e03c1f54106e3bdf7957554c4e8b890b7673bf",
+        "sha256_in_prefix": "74e8d2388206b8efed0e5ebdc8e03c1f54106e3bdf7957554c4e8b890b7673bf",
+        "size_in_bytes": 42301
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/collation.py",
+        "path_type": "hardlink",
+        "sha256": "3c45c6fc93f96f1edfe6a4fb3e979d7a8dd9c350f20d6f8121919223666ea474",
+        "sha256_in_prefix": "3c45c6fc93f96f1edfe6a4fb3e979d7a8dd9c350f20d6f8121919223666ea474",
+        "size_in_bytes": 7994
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/collection.py",
+        "path_type": "hardlink",
+        "sha256": "c9ffc3c74bec23ca53f64829de69f696a2a74a786b6da01204bdb07f047fb3a4",
+        "sha256_in_prefix": "c9ffc3c74bec23ca53f64829de69f696a2a74a786b6da01204bdb07f047fb3a4",
+        "size_in_bytes": 130034
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/command_cursor.py",
+        "path_type": "hardlink",
+        "sha256": "46999ecf6d00acd9897b9f1defc3eb3b7b4ab2063e6815edcbe104981d4546d6",
+        "sha256_in_prefix": "46999ecf6d00acd9897b9f1defc3eb3b7b4ab2063e6815edcbe104981d4546d6",
+        "size_in_bytes": 12665
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/common.py",
+        "path_type": "hardlink",
+        "sha256": "70c82014bd33cd5f8831bef8666b3468255d0b80385a97980bc4b766a03297bf",
+        "sha256_in_prefix": "70c82014bd33cd5f8831bef8666b3468255d0b80385a97980bc4b766a03297bf",
+        "size_in_bytes": 34990
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/compression_support.py",
+        "path_type": "hardlink",
+        "sha256": "48ca645dc3685085d66ba5716fdda09b76190f544918984a245e3c35566fe501",
+        "sha256_in_prefix": "48ca645dc3685085d66ba5716fdda09b76190f544918984a245e3c35566fe501",
+        "size_in_bytes": 4694
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/cursor.py",
+        "path_type": "hardlink",
+        "sha256": "19eb7ba1b11ee54db21084f295b793289441403555dc142a7f99e1b45a47e5af",
+        "sha256_in_prefix": "19eb7ba1b11ee54db21084f295b793289441403555dc142a7f99e1b45a47e5af",
+        "size_in_bytes": 49444
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/daemon.py",
+        "path_type": "hardlink",
+        "sha256": "d533874b6876644249fce267a95948e04cf00f14dd8da0451868ba3ab87785d1",
+        "sha256_in_prefix": "d533874b6876644249fce267a95948e04cf00f14dd8da0451868ba3ab87785d1",
+        "size_in_bytes": 5453
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/database.py",
+        "path_type": "hardlink",
+        "sha256": "c4ee783774e46b934fd328961c097ddc1aaea9e59d2fe5fa8160321df78af857",
+        "sha256_in_prefix": "c4ee783774e46b934fd328961c097ddc1aaea9e59d2fe5fa8160321df78af857",
+        "size_in_bytes": 48777
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/driver_info.py",
+        "path_type": "hardlink",
+        "sha256": "5d6b9b4249f19283ff444a54690a08ca929e02da154c9571c65229fa5805275b",
+        "sha256_in_prefix": "5d6b9b4249f19283ff444a54690a08ca929e02da154c9571c65229fa5805275b",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/encryption.py",
+        "path_type": "hardlink",
+        "sha256": "078acca406677ed2e1cf6be6966cab52a27b2c0337e537fd464fd7152391eb2f",
+        "sha256_in_prefix": "078acca406677ed2e1cf6be6966cab52a27b2c0337e537fd464fd7152391eb2f",
+        "size_in_bytes": 34267
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/encryption_options.py",
+        "path_type": "hardlink",
+        "sha256": "8539965f914151bf8eb90021973abbccea2c6a7dfb5b5d5a8c35a340db243381",
+        "sha256_in_prefix": "8539965f914151bf8eb90021973abbccea2c6a7dfb5b5d5a8c35a340db243381",
+        "size_in_bytes": 11424
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/errors.py",
+        "path_type": "hardlink",
+        "sha256": "8d871755dab65e0bf9b73b8805c4cdd6e4c4e3bb28a69bb306bb3701f7bfc788",
+        "sha256_in_prefix": "8d871755dab65e0bf9b73b8805c4cdd6e4c4e3bb28a69bb306bb3701f7bfc788",
+        "size_in_bytes": 10893
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/event_loggers.py",
+        "path_type": "hardlink",
+        "sha256": "e36bd2980e0a3505f905aabeb189060f79de9002b7a536e5184b7f35b264fafa",
+        "sha256_in_prefix": "e36bd2980e0a3505f905aabeb189060f79de9002b7a536e5184b7f35b264fafa",
+        "size_in_bytes": 9062
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/hello.py",
+        "path_type": "hardlink",
+        "sha256": "f704ecc16f17615a7eae7a17314c80f7425d7133fffa19d569c1842b8ed1b094",
+        "sha256_in_prefix": "f704ecc16f17615a7eae7a17314c80f7425d7133fffa19d569c1842b8ed1b094",
+        "size_in_bytes": 6556
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "9a808cfc62a2f30f14847df724e870f160ee248d60cc3a1e946f92d71b6b7dfa",
+        "sha256_in_prefix": "9a808cfc62a2f30f14847df724e870f160ee248d60cc3a1e946f92d71b6b7dfa",
+        "size_in_bytes": 8655
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/lock.py",
+        "path_type": "hardlink",
+        "sha256": "b1b4d38035a8ef9114cf46f6adcf66cc7352434228d8e97fb1d0338f4be77e1a",
+        "sha256_in_prefix": "b1b4d38035a8ef9114cf46f6adcf66cc7352434228d8e97fb1d0338f4be77e1a",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/max_staleness_selectors.py",
+        "path_type": "hardlink",
+        "sha256": "1fea7470f159d92d8cad3e66e8ed59d47d82cb101eb681d8f1e39fdecf398557",
+        "sha256_in_prefix": "1fea7470f159d92d8cad3e66e8ed59d47d82cb101eb681d8f1e39fdecf398557",
+        "size_in_bytes": 4254
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/message.py",
+        "path_type": "hardlink",
+        "sha256": "3a3a8eb06d1c7fc499e692b1ec7c67eca7df2f8878c31ede3dac9afd0babec19",
+        "sha256_in_prefix": "3a3a8eb06d1c7fc499e692b1ec7c67eca7df2f8878c31ede3dac9afd0babec19",
+        "size_in_bytes": 47285
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/mongo_client.py",
+        "path_type": "hardlink",
+        "sha256": "5d49914ffb705473aa678f6c53fcf72abeb81386fe4b091dbb50caa0e7cf7794",
+        "sha256_in_prefix": "5d49914ffb705473aa678f6c53fcf72abeb81386fe4b091dbb50caa0e7cf7794",
+        "size_in_bytes": 96538
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/monitor.py",
+        "path_type": "hardlink",
+        "sha256": "4f5bcdf3a8b25db9b252f45f21a658867835ff15642655aa492161d2267f5695",
+        "sha256_in_prefix": "4f5bcdf3a8b25db9b252f45f21a658867835ff15642655aa492161d2267f5695",
+        "size_in_bytes": 15250
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/monitoring.py",
+        "path_type": "hardlink",
+        "sha256": "acd7f5f50cae5c20654ac5b0479f8183a56efb07042dc0d311fabb2190829a63",
+        "sha256_in_prefix": "acd7f5f50cae5c20654ac5b0479f8183a56efb07042dc0d311fabb2190829a63",
+        "size_in_bytes": 59932
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/network.py",
+        "path_type": "hardlink",
+        "sha256": "ca879f5bd1fc24e69c6f0082dc18b5fc1d2b294e270b00130866dfef49ef4d3b",
+        "sha256_in_prefix": "ca879f5bd1fc24e69c6f0082dc18b5fc1d2b294e270b00130866dfef49ef4d3b",
+        "size_in_bytes": 11876
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/ocsp_cache.py",
+        "path_type": "hardlink",
+        "sha256": "91c32ad14f9f7cf8c1cff4eafe0c08ac952e181cf888e2af7bfb1ba84d52e3d0",
+        "sha256_in_prefix": "91c32ad14f9f7cf8c1cff4eafe0c08ac952e181cf888e2af7bfb1ba84d52e3d0",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/ocsp_support.py",
+        "path_type": "hardlink",
+        "sha256": "f04155036c5a532ebfea0a7c7b6f601fded594eee41614c12278ecab9b46bdbd",
+        "sha256_in_prefix": "f04155036c5a532ebfea0a7c7b6f601fded594eee41614c12278ecab9b46bdbd",
+        "size_in_bytes": 15304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/operations.py",
+        "path_type": "hardlink",
+        "sha256": "978664a3aef792ea6aec1e90adc26522622bc55ff58f9e95c62ca5932c4b47a9",
+        "sha256_in_prefix": "978664a3aef792ea6aec1e90adc26522622bc55ff58f9e95c62ca5932c4b47a9",
+        "size_in_bytes": 18318
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/periodic_executor.py",
+        "path_type": "hardlink",
+        "sha256": "3d16c183569243d6f185c8979a56cb94c92cc230c97d2a7ee37c0ad69338769e",
+        "sha256_in_prefix": "3d16c183569243d6f185c8979a56cb94c92cc230c97d2a7ee37c0ad69338769e",
+        "size_in_bytes": 6110
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/pool.py",
+        "path_type": "hardlink",
+        "sha256": "ed013f5511a171c75d8b1fc0cbeb51ba0eac77b192f4c9299d766d06b52f3f87",
+        "sha256_in_prefix": "ed013f5511a171c75d8b1fc0cbeb51ba0eac77b192f4c9299d766d06b52f3f87",
+        "size_in_bytes": 62804
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/py.typed",
+        "path_type": "hardlink",
+        "sha256": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "sha256_in_prefix": "cf044d8d9395de5785cc67707e46ef18e7c66c1a2994879e66ee20edde8ff76f",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/pyopenssl_context.py",
+        "path_type": "hardlink",
+        "sha256": "52a35e8080c6f87bef0ffc3c8fd5af90acb8f07041dc35ecb38dbfe6a10b5cef",
+        "sha256_in_prefix": "52a35e8080c6f87bef0ffc3c8fd5af90acb8f07041dc35ecb38dbfe6a10b5cef",
+        "size_in_bytes": 15115
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/read_concern.py",
+        "path_type": "hardlink",
+        "sha256": "a9f999085811afe6a08f7505b296acd8b4475b4ed23036ccb25965bc37fe3005",
+        "sha256_in_prefix": "a9f999085811afe6a08f7505b296acd8b4475b4ed23036ccb25965bc37fe3005",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/read_preferences.py",
+        "path_type": "hardlink",
+        "sha256": "578583c34b45abd7ca083fc05647c39ef2773c4dbc79f261b4619743de06bd1a",
+        "sha256_in_prefix": "578583c34b45abd7ca083fc05647c39ef2773c4dbc79f261b4619743de06bd1a",
+        "size_in_bytes": 20993
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/response.py",
+        "path_type": "hardlink",
+        "sha256": "419e875e415f0412c5b5f214909ad7701333e0be55fa3761ae6432600c5f4bc0",
+        "sha256_in_prefix": "419e875e415f0412c5b5f214909ad7701333e0be55fa3761ae6432600c5f4bc0",
+        "size_in_bytes": 3705
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/results.py",
+        "path_type": "hardlink",
+        "sha256": "084e106dcbc4082db999cc3beb8b45dd2f37ec1474bb3fe5a49a22cb8b6ff29b",
+        "sha256_in_prefix": "084e106dcbc4082db999cc3beb8b45dd2f37ec1474bb3fe5a49a22cb8b6ff29b",
+        "size_in_bytes": 7647
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/saslprep.py",
+        "path_type": "hardlink",
+        "sha256": "5fa36ca20ebef8d46fde1f9638607e524a9c93a2ed4091b08ef1dcb305ed21b0",
+        "sha256_in_prefix": "5fa36ca20ebef8d46fde1f9638607e524a9c93a2ed4091b08ef1dcb305ed21b0",
+        "size_in_bytes": 4339
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/server.py",
+        "path_type": "hardlink",
+        "sha256": "7cfc3c84563ec21718198bcc3a1a64e61ca3e05d5394609bade39cb64f2bafa6",
+        "sha256_in_prefix": "7cfc3c84563ec21718198bcc3a1a64e61ca3e05d5394609bade39cb64f2bafa6",
+        "size_in_bytes": 8797
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/server_api.py",
+        "path_type": "hardlink",
+        "sha256": "89f88e37cd1c2ffaa5f32a8128bed9b0c26feb1dac68c96cef43143930d82ffc",
+        "sha256_in_prefix": "89f88e37cd1c2ffaa5f32a8128bed9b0c26feb1dac68c96cef43143930d82ffc",
+        "size_in_bytes": 5926
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/server_description.py",
+        "path_type": "hardlink",
+        "sha256": "d50979bc00f4348a8047b9670d064504f17bb569e6e54448f174c4b50bf44d0d",
+        "sha256_in_prefix": "d50979bc00f4348a8047b9670d064504f17bb569e6e54448f174c4b50bf44d0d",
+        "size_in_bytes": 9072
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/server_selectors.py",
+        "path_type": "hardlink",
+        "sha256": "cdb1aadba1590a37dd658a7f42806633865a8300e5992019abeb02ebb0ca83ee",
+        "sha256_in_prefix": "cdb1aadba1590a37dd658a7f42806633865a8300e5992019abeb02ebb0ca83ee",
+        "size_in_bytes": 5100
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/server_type.py",
+        "path_type": "hardlink",
+        "sha256": "42ae3f50747c0fb4e6ecf57936c11d7890097ffe8cd2f85f91d7dc5de6e2e616",
+        "sha256_in_prefix": "42ae3f50747c0fb4e6ecf57936c11d7890097ffe8cd2f85f91d7dc5de6e2e616",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/settings.py",
+        "path_type": "hardlink",
+        "sha256": "19e0fe397907d687db456d906ba06b41793267553f9781cdded11e207cd210e0",
+        "sha256_in_prefix": "19e0fe397907d687db456d906ba06b41793267553f9781cdded11e207cd210e0",
+        "size_in_bytes": 4993
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/socket_checker.py",
+        "path_type": "hardlink",
+        "sha256": "5b557118e8ab5c7fc2e4a5735cc2a39e06a59fb6d6bec494830088fef6dda608",
+        "sha256_in_prefix": "5b557118e8ab5c7fc2e4a5735cc2a39e06a59fb6d6bec494830088fef6dda608",
+        "size_in_bytes": 4137
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/srv_resolver.py",
+        "path_type": "hardlink",
+        "sha256": "e2bb9208d89acda288c66277a24973978979450853f16984e62449d871f194a7",
+        "sha256_in_prefix": "e2bb9208d89acda288c66277a24973978979450853f16984e62449d871f194a7",
+        "size_in_bytes": 4348
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/ssl_context.py",
+        "path_type": "hardlink",
+        "sha256": "64e9cef983a82ea6dba768399898cf308d73f24260c9dbad28435426238a3009",
+        "sha256_in_prefix": "64e9cef983a82ea6dba768399898cf308d73f24260c9dbad28435426238a3009",
+        "size_in_bytes": 1390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/ssl_support.py",
+        "path_type": "hardlink",
+        "sha256": "5b3a92ae1d9f15976c0f1e16b21ae43576e20a8218a792f179af63d7f002ae6b",
+        "sha256_in_prefix": "5b3a92ae1d9f15976c0f1e16b21ae43576e20a8218a792f179af63d7f002ae6b",
+        "size_in_bytes": 3686
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/topology.py",
+        "path_type": "hardlink",
+        "sha256": "fa65544b2823579b69856d6a5465f58b028cfded8253ed68c63f5b22773467d2",
+        "sha256_in_prefix": "fa65544b2823579b69856d6a5465f58b028cfded8253ed68c63f5b22773467d2",
+        "size_in_bytes": 35926
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/topology_description.py",
+        "path_type": "hardlink",
+        "sha256": "7d58059575116cafdaab95c88a2b8c59b1762ed96b5a71d9b5e1cb8f923b455f",
+        "sha256_in_prefix": "7d58059575116cafdaab95c88a2b8c59b1762ed96b5a71d9b5e1cb8f923b455f",
+        "size_in_bytes": 25818
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/typings.py",
+        "path_type": "hardlink",
+        "sha256": "5853e4a3210f76ee2507b6c7571915b338775a39e4c01ce480735618f1d3c191",
+        "sha256_in_prefix": "5853e4a3210f76ee2507b6c7571915b338775a39e4c01ce480735618f1d3c191",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/uri_parser.py",
+        "path_type": "hardlink",
+        "sha256": "e9ea237f030b8e016b790922d8f0419796cfe5ff49512fff1776cf2a13e6b6e0",
+        "sha256_in_prefix": "e9ea237f030b8e016b790922d8f0419796cfe5ff49512fff1776cf2a13e6b6e0",
+        "size_in_bytes": 23290
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pymongo/write_concern.py",
+        "path_type": "hardlink",
+        "sha256": "9762dec3791711d062698b556bc65d63d4aac9e3bd5f256ba478428292bae190",
+        "sha256_in_prefix": "9762dec3791711d062698b556bc65d63d4aac9e3bd5f256ba478428292bae190",
+        "size_in_bytes": 4982
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pymongo",
+  "sha256": "e5a04add7cd5de534dcbcd972c4edea2c92e44e08b4c04f4635bfa69e479cf83",
+  "size": 1358695,
+  "subdir": "osx-arm64",
+  "timestamp": 1666861752176,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pymongo-4.3.2-py38h2b1e499_1.tar.bz2",
+  "version": "4.3.2"
+}

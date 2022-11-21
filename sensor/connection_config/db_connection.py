@@ -1,8 +1,10 @@
 import pymongo
 from sensor.constants.database import DATABASE_NAME
 import certifi
-
+from sensor.exception import CustomException
+import os,sys
 ca = certifi.where()
+
 
 class MongoDBConnection:
     client = None
@@ -14,6 +16,6 @@ class MongoDBConnection:
             self.client = MongoDBConnection.client
             self.db = self.client[db_name]
             self.db_name = db_name
-
         except Exception as e:
-            raise e
+            raise CustomException(e,sys)
+
