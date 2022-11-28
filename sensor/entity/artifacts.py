@@ -15,8 +15,22 @@ class DataValidationArtifacts:
     invalid_testing_file_path : str
     drift_report_file_path : str
 
+@dataclass
+
 class DataTransformationArtifacts:
 
     transformed_object_file_path : str
     transformed_training_file_path : str
     transformed_test_file_path : str
+
+@dataclass
+
+class ClassificationMetricArtifacts:
+    f1_score : float
+    precision_score : float
+    recall_score : float
+
+@dataclass
+class ModelTrainerArtifacts:
+    trained__model_file_path : str
+    metric_artifacts : ClassificationMetricArtifacts
