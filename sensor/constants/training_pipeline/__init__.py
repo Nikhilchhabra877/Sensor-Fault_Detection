@@ -38,3 +38,10 @@ DATA_VALIDATION_DRIFT_REPORT_FILENAME = "report.yaml"
 DATA_TRANSFORMATION_DIR = "data_transformation"
 TRANSFORMED_DATA = "data_transformed"
 DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR = "transformed_object"
+
+# Model trainer constants
+
+MODEL_TRAINER_DIR_NAME :str = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR:str = "trained_model"
+MODEL_NAME :str= "model.pkl"
+EXPECTED_SCORE :float = 0.6
