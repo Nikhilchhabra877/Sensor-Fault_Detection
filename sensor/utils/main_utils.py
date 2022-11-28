@@ -2,6 +2,8 @@ from sensor.exception import CustomException
 import yaml
 import os,sys
 import numpy as np
+import dill
+from sensor.logger import logging
 
 def read_yaml_file(file_path:str) -> dict:
 
@@ -38,7 +40,7 @@ def save_numpy_array(file_path:str,array:np.array):
         raise CustomException(e,sys)
 
 
-def load_numpy_array(file_path:str):
+def load_numpy_array(file_path:str)->np.array:
 
     """
     This function load numpy array data from file
@@ -48,5 +50,19 @@ def load_numpy_array(file_path:str):
 
         with open(file_path,"rb") as np_obj:
             np.load(np_obj,)
+    except Exception as e:
+        raise CustomException(e,sys)
+    
+
+def save_object(file_path:str,obj:object)->None:
+    try:
+    
+        logging.info("Save object method invoked")
+        path = os.mkdirs(os.path.dirname(file_path,exist_ok = True))
+        with open(file_path) as np_obj:
+            dill.dump(np_obj)
+        logging.info(f"Object saved into {path} directory")
+
+
     except Exception as e:
         raise CustomException(e,sys)
