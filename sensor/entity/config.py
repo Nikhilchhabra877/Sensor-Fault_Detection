@@ -55,10 +55,10 @@ class DataValidationConfig:
     data_validation_dir: str = os.path.join(training_pipeline_config.artifacts_dir,DATA_VALIDATION_DIR_NAME)
     valid_data_dir: str = os.path.join(data_validation_dir, DATA_VALIDATION_VALID_DIR)
     invalid_data_dir: str = os.path.join(data_validation_dir, DATA_VALIDATION_INVALID_DIR)
-    valid_train_file_path: str = os.path.join(valid_data_dir, TRAINING_FILE)
-    valid_test_file_path: str = os.path.join(valid_data_dir, TESTING_FILE)
-    invalid_train_file_path: str = os.path.join(invalid_data_dir, TRAINING_FILE)
-    invalid_test_file_path: str = os.path.join(invalid_data_dir, TESTING_FILE)
+    valid_training_file_path: str = os.path.join(valid_data_dir, TRAINING_FILE)
+    valid_testing_file_path: str = os.path.join(valid_data_dir, TESTING_FILE)
+    invalid_training_file_path: str = os.path.join(invalid_data_dir, TRAINING_FILE)
+    invalid_testing_file_path: str = os.path.join(invalid_data_dir, TESTING_FILE)
     drift_report_file_path: str = os.path.join(data_validation_dir,DATA_VALIDATION_DRIFT_REPORT_DIR,DATA_VALIDATION_DRIFT_REPORT_FILENAME,)
 
 @dataclass
@@ -70,4 +70,11 @@ class DataTransformationConfig:
         self.transformed_training_file_path = os.path.join(self.data_transformation_dir,TRANSFORMED_DATA,TRAINING_FILE.replace("csv","npy"),)
         self.transformed_test_file_path = os.path.join(self.data_transformation_dir,TRANSFORMED_DATA,TESTING_FILE.replace("csv","npy"),)
         self.transformed_object_file_path = os.path.join(self.data_transformation_dir,DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR,PREPROCESSING_FILE)
-        
+
+@dataclass
+class ModelTrainerConfig:
+    model_trainer_dir :str = os.path.join(training_pipeline_config.artifacts_dir,MODEL_TRAINER_DIR_NAME)
+    trained__model_file_pth:str = os.path.join(model_trainer_dir,MODEL_TRAINER_TRAINED_MODEL_DIR,MODEL_NAME)
+    model_accuracy :float = EXPECTED_SCORE
+    model_config_path : str = MODEL_TRAINER_MODEL_CONFIG_FILE_PATH
+
