@@ -73,8 +73,30 @@ class DataTransformationConfig:
 
 @dataclass
 class ModelTrainerConfig:
-    model_trainer_dir :str = os.path.join(training_pipeline_config.artifacts_dir,MODEL_TRAINER_DIR_NAME)
-    trained__model_file_pth:str = os.path.join(model_trainer_dir,MODEL_TRAINER_TRAINED_MODEL_DIR,MODEL_NAME)
-    model_accuracy :float = EXPECTED_SCORE
-    model_config_path : str = MODEL_TRAINER_MODEL_CONFIG_FILE_PATH
 
+    def __init__(self,training_pipeline_config:TrainingPipelineConfig):
+    
+        self.model_trainer_dir :str = os.path.join(training_pipeline_config.artifacts_dir,MODEL_TRAINER_DIR_NAME)
+        self.trained__model_file_path:str = os.path.join(self.model_trainer_dir,MODEL_TRAINER_TRAINED_MODEL_DIR,MODEL_NAME)
+        self.model_accuracy :float = EXPECTED_SCORE
+        self.model_config_path : str = MODEL_TRAINER_MODEL_CONFIG_FILE_PATH
+@dataclass
+class ModelEvaluationConfig:
+    def __init__(self,training_pipeline_config:TrainingPipelineConfig):
+
+        self.model_evaluation_dir :str = os.path.join(training_pipeline_config.artifacts_dir,MODEL_EVALUATION_DIR_NAME)
+
+        self.report_file_path = os.path.join(self.model_evaluation_dir,MODEL_EVALUATION_REPORT_NAME)
+        
+        self.change_threshold =  MODEL_EVALUATION_THRESHOLD
+
+
+@dataclass
+class ModelPusherConfig:
+
+    def __init__(self,training_pipeline_config:TrainingPipelineConfig):
+
+        self.model_evaluation_dir : str = os.path.join(training_pipeline_config.artifacts_dir,MODEL_PUSHER_DIR_NAME)
+        timestamp = round(datetime.now().timestamp())
+        self.saved_model_dir = os.path.join(SAVED_MODEL_DIR,f"{timestamp}",MODEL_NAME)
+        self.model_file_path = os.path.join(self.model_evaluation_dir,MODEL_NAME)
