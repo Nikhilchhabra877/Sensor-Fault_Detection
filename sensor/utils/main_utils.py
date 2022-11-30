@@ -58,11 +58,26 @@ def save_object(file_path:str,obj:object)->None:
     try:
     
         logging.info("Save object method invoked")
-        path = os.mkdirs(os.path.dirname(file_path,exist_ok = True))
-        with open(file_path) as np_obj:
-            dill.dump(np_obj)
-        logging.info(f"Object saved into {path} directory")
+        os.makedirs(os.path.dirname(file_path),exist_ok = True)
+        with open(file_path, "wb") as np_obj:
+            dill.dump(obj,np_obj)
+        logging.info(f"Object saved into the directory")
 
+
+    except Exception as e:
+        raise CustomException(e,sys)
+    
+
+
+def load_object(file_path:str)->object:
+
+    try:
+        if not os.path.exists(file_path):
+            raise Exception(f"The file is not available at {file_path}")
+        
+        with open (file_path,"wb") as obj:
+            dill.load(obj)
+            return dill
 
     except Exception as e:
         raise CustomException(e,sys)
