@@ -11,8 +11,10 @@ from sensor.stages.model_trainer import ModelTrainer
 from sensor.stages.model_evaluation import ModelEvaluation
 from sensor.stages.model_pusher import ModelPusher
 class TrainingPipeLine:
-
+    is_pipeline_running = False
     def __init__(self):
+
+        
 
         training_pipeline =  TrainingPipelineConfig()
         self.data_ingestion = DataIngestionConfig(train_pipeline_config=training_pipeline)
@@ -114,6 +116,8 @@ class TrainingPipeLine:
     def Run_Pipeline(self):
 
         try:
+
+            TrainingPipeLine.is_pipeline_running = True
             data_ingestion_artifacts = self.Data_Ingestion()
             data_validation_artifacts = self.Data_Validation(data_ingestion_artifacts=data_ingestion_artifacts)
 
@@ -126,6 +130,7 @@ class TrainingPipeLine:
             if not model_eval_artifact.is_model_accepted:
                 raise Exception("Trained model is not better than the best model")
             model_pusher_artifacts = self.Model_Push(model_eval_artifact)
+            TrainingPipeLine.is_pipeline_running = False
         except Exception as e:
             raise CustomException(e,sys)
 
