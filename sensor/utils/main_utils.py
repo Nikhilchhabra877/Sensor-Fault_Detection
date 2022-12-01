@@ -49,7 +49,7 @@ def load_numpy_array(file_path:str)->np.array:
     try:
 
         with open(file_path,"rb") as np_obj:
-            np.load(np_obj,)
+            return np.load(np_obj)
     except Exception as e:
         raise CustomException(e,sys)
     
@@ -75,9 +75,9 @@ def load_object(file_path:str)->object:
         if not os.path.exists(file_path):
             raise Exception(f"The file is not available at {file_path}")
         
-        with open (file_path,"wb") as obj:
-            dill.load(obj)
-            return dill
+        with open (file_path,"rb") as obj:
+            return dill.load(obj)
+            
 
     except Exception as e:
         raise CustomException(e,sys)

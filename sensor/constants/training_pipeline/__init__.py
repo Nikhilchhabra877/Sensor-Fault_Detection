@@ -1,6 +1,7 @@
 from sensor.constants.S3_bucket import TRAINING_BUCKET
 import os
 
+SAVED_MODEL_DIR= os.path.join("saved_models")
 
 # constant variables for training pipeline
 
@@ -12,7 +13,7 @@ TRAINING_FILE : str = "train.csv"
 TESTING_FILE : str = "test.csv"
 
 PREPROCESSING_FILE = "preprocessing.pkl"
-MODEL_NAME = "sensor_model.pkl"
+#MODEL_NAME = "sensor_model.pkl"
 SCHEMA = os.path.join("config","schema.yaml")
 SCHEMA_DROP_COLUMNS = "drop_columns"
 
@@ -45,3 +46,16 @@ MODEL_TRAINER_DIR_NAME :str = "model_trainer"
 MODEL_TRAINER_TRAINED_MODEL_DIR:str = "trained_model"
 MODEL_NAME :str= "model.pkl"
 EXPECTED_SCORE :float = 0.6
+MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
+
+
+# Model evaluation
+
+MODEL_EVALUATION_THRESHOLD : float = 0.02
+MODEL_EVALUATION_DIR_NAME:str = "model_trainer"
+MODEL_EVALUATION_REPORT_NAME  = "report.yaml"
+
+#Model Pusher
+
+MODEL_PUSHER_DIR_NAME = "model_pusher"
+MODEL_PUSHER_SAVED_MODEL_DIR = SAVED_MODEL_DIR

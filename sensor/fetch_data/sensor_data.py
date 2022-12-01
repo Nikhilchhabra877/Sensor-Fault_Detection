@@ -5,6 +5,7 @@ from sensor.exception import CustomException
 import pandas as pd
 import numpy as np
 from typing import Optional
+from sensor.logger import logging
 
 class FetchSensorData:
 
@@ -53,6 +54,7 @@ class SensorData:
         """
         """
         try:
+            logging.info("Connection with MongoDB established successfully")
             self.mongo_client = MongoDBConnection(db_name=DATABASE_NAME)
         except Exception as e:
             raise CustomException(e, sys)
@@ -61,6 +63,7 @@ class SensorData:
         self, collection_name: str, db_name: Optional[str] = None
     ) -> pd.DataFrame:
         try:
+            logging.info("data extraction started")
             """
             export entire collectin as dataframe:
             return pd.DataFrame of collection
@@ -73,6 +76,7 @@ class SensorData:
             if "_id" in df.columns.to_list():
                 df = df.drop(columns=["_id"], axis=1)
             df.replace({"na": np.nan}, inplace=True)
+            logging.info("Data Extracted successfully")
             return df
         except Exception as e:
             raise CustomException(e, sys)
