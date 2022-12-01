@@ -3,7 +3,7 @@ from sensor.logger import logging
 from sensor.entity.artifacts import ModelPusherArtifact,ModelTrainerArtifacts,ModelEvaluationArtifacts
 from sensor.entity.config import ModelEvaluationConfig,ModelPusherConfig
 import os,sys
-from sensor.MachineLearning.Metrics import get_classification_score
+from sensor.MachineLearning.Metrics.classification_metric import get_classification_score
 from sensor.utils.main_utils import save_object,load_object,write_yaml_file
 
 import shutil

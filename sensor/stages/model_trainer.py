@@ -134,11 +134,11 @@ class ModelTrainer:
         try:
             train_file_path = self.data_transformation_artifact.transformed_training_file_path
             test_file_path = self.data_transformation_artifact.transformed_test_file_path
-
+            print(train_file_path)
             #loading training array and testing array
-            train_arr = load_numpy_array(train_file_path)
-            test_arr = load_numpy_array(test_file_path)
-
+            train_arr = load_numpy_array(file_path = train_file_path)
+            test_arr = load_numpy_array(file_path = test_file_path)
+            print(train_arr)
             x_train, y_train, x_test, y_test = (
                 train_arr[:, :-1],
                 train_arr[:, -1],
@@ -172,9 +172,9 @@ class ModelTrainer:
 
             #model trainer artifact
 
-            model_trainer_artifact = ModelTrainerArtifacts(trained_model_file_path=self.model_trainer_config.trained__model_file_path, 
-            train_metric_artifact=classification_train_metric,
-            test_metric_artifact=classification_test_metric)
+            model_trainer_artifact = ModelTrainerArtifacts(trained__model_file_path=self.model_trainer_config.trained__model_file_path, 
+            train_metric_artifacts=classification_train_metric,
+            test_metric_artifacts=classification_test_metric)
             logging.info(f"Model trainer artifact: {model_trainer_artifact}")
             return model_trainer_artifact
         except Exception as e:
