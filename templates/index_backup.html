@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Welcome</title>
+    
+    <link rel="stylesheet" href="../Static/css/mystyle.css">
+</head>
+
+<body style="background-color: rgb(196, 247, 230)">
+    <div class="top">
+        <img width="500" height="150" src="../Static/Images/Loyalist-College-Logo.png">
+        <h1 style="position: absolute;top: 140px">AIR PRESSURE SYSTEM FAULT DETECTION</h>
+    </div>
+
+    <div class="left">
+        <div class="center">
+            <img width="600" height="400" src="../Static/Images/scania.png">
+        </div>          
+    </div>
+
+    <div class="right">
+
+            <h3>Upload your files here</h3>
+            <p>Upload only csv file.</p>
+
+            <form action="/" method="post" enctype="multipart/form-data">
+                {% with messages = get_flashed_messages() %}
+                {% for msg in messages %}
+                <p class="error">{{ msg }}</p>
+                {% endfor %}
+                {% endwith %}
+                <input type="file"  name="file" accept=".csv">
+                <input type="submit" value="Make Predictions">
+                <label style="font-size:18px; font-weight:bold;">Result</label>
+                <br>
+                <textarea name="result" rows="4" cols="50">
+
+                </textarea>
+                <br/>
+            </form>
+
+    </div>
+
+</body>
