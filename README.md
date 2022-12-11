@@ -11,3 +11,37 @@ indicates that the failure was caused by something else.
 In this project, the system in focus is the Air Pressure system (APS) which generates pressurized air that are utilized in various functions in a truck, such as braking and gear changes. The datasets positive class corresponds to component failures for a specific component of the APS system. The negative class corresponds to trucks with failures for components not related to the APS system.
 
 The problem is to reduce the cost due to unnecessary repairs. So it is required to minimize the false predictions.
+
+ech Stack Used
+
+Python
+FastAPI
+Machine learning algorithms
+Docker
+MongoDB
+Infrastructure Required.
+
+AWS S3
+AWS EC2
+AWS ECR
+Git Actions
+Terraform
+How to run?
+
+Before we run the project, make sure that you are having MongoDB in your local system, with Compass since we are using MongoDB for data storage. You also need AWS account to access the service like S3, ECR and EC2 instances.
+
+Data Collections
+
+<img width="779" alt="image" src="https://user-images.githubusercontent.com/51530046/206884512-2fda7dca-8697-485d-9ab8-29e8c42380ed.png">
+
+
+Project Archietecture
+
+<img width="1044" alt="image" src="https://user-images.githubusercontent.com/51530046/206884524-0e15c7c5-062f-48b6-98ca-f88fb2fcf783.png">
+
+
+Deployment Archietecture
+
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/51530046/206884531-ce6b4be8-a2a3-46b1-a372-8379356bc55e.png">
+
+
