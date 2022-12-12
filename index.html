@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SCANIA TRUCK FAULT</title>
+		
+	</head>
+	<body>
+		<div style="width:100%">
+            	<div style="background-color:cyan; text-align:center">
+			<h1> AIR PRESSURE SYSTEM FAULT DETECTION </h1>
+			
+			</div>
+		 	<div style="background-color:lightgreen; height:500px; width:50%; float:left;">
+			<br>
+			<br>
+			<img align = "left" src = "C:\Users\darsh\Desktop\Darshan\AIP\Project\Project APS\Front_end\Static\Images\truck.jpg" alt = "" height = "400" width = "600"/>
+			</div>
+			<div style="background-color:lightgreen; height:500px; width:50%; float:right;">
+			<br>
+			<br>
+			<br>
+			<br>
+			<form name="input" action="/validate" methods=["GET","POST"]>
+				{% for message in get_flashed_messages() %}
+					<p>{{message}}</p>
+				{% endfor %}
+
+				<br>
+				<br>
+        		<label for=""><h3>Select CSV files only</h3></label>
+				<input type="file" size= 70 align = right name="file link" id = "userfile"></input><br>
+				<br>
+				<br>
+        		<input style="height:40px;width:100px; background-color:green" type="Submit" action="/validate" id="validate"><h3>Submit</h3></button> <br>
+			</form>
+
+			<br>
+			<label for="output"><h3>Result:</h3> </label>
+			<input type="textarea" size= 70 align = right name="output"></input>
+			</div>
+		</div>
+	</body>
+	
+</html>

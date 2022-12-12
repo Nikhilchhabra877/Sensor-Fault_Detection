@@ -1,0 +1,735 @@
+{
+  "build": "py38hb991d35_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python >=3.8,<3.9.0a0 *_cpython",
+    "python_abi 3.8.* *_cp38",
+    "typing-extensions >=4.1.0"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pydantic-1.10.2-py38hb991d35_1",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/LICENSE",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/METADATA",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/RECORD",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pydantic/__init__.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/__init__.py",
+    "lib/python3.8/site-packages/pydantic/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/_hypothesis_plugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/annotated_types.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/class_validators.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/color.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/dataclasses.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/datetime_parse.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/decorator.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/env_settings.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/error_wrappers.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/fields.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/generics.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/json.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/main.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/mypy.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/networks.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/parse.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/schema.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/tools.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/types.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/typing.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/validators.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydantic/_hypothesis_plugin.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/_hypothesis_plugin.py",
+    "lib/python3.8/site-packages/pydantic/annotated_types.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/annotated_types.py",
+    "lib/python3.8/site-packages/pydantic/class_validators.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/class_validators.py",
+    "lib/python3.8/site-packages/pydantic/color.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/color.py",
+    "lib/python3.8/site-packages/pydantic/config.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/config.py",
+    "lib/python3.8/site-packages/pydantic/dataclasses.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/dataclasses.py",
+    "lib/python3.8/site-packages/pydantic/datetime_parse.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/datetime_parse.py",
+    "lib/python3.8/site-packages/pydantic/decorator.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/decorator.py",
+    "lib/python3.8/site-packages/pydantic/env_settings.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/env_settings.py",
+    "lib/python3.8/site-packages/pydantic/error_wrappers.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/error_wrappers.py",
+    "lib/python3.8/site-packages/pydantic/errors.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/errors.py",
+    "lib/python3.8/site-packages/pydantic/fields.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/fields.py",
+    "lib/python3.8/site-packages/pydantic/generics.py",
+    "lib/python3.8/site-packages/pydantic/json.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/json.py",
+    "lib/python3.8/site-packages/pydantic/main.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/main.py",
+    "lib/python3.8/site-packages/pydantic/mypy.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/mypy.py",
+    "lib/python3.8/site-packages/pydantic/networks.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/networks.py",
+    "lib/python3.8/site-packages/pydantic/parse.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/parse.py",
+    "lib/python3.8/site-packages/pydantic/py.typed",
+    "lib/python3.8/site-packages/pydantic/schema.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/schema.py",
+    "lib/python3.8/site-packages/pydantic/tools.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/tools.py",
+    "lib/python3.8/site-packages/pydantic/types.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/types.py",
+    "lib/python3.8/site-packages/pydantic/typing.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/typing.py",
+    "lib/python3.8/site-packages/pydantic/utils.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/utils.py",
+    "lib/python3.8/site-packages/pydantic/validators.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/validators.py",
+    "lib/python3.8/site-packages/pydantic/version.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/pydantic/version.py"
+  ],
+  "fn": "pydantic-1.10.2-py38hb991d35_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pydantic-1.10.2-py38hb991d35_1",
+    "type": 1
+  },
+  "md5": "7c6600965791a42335c327a35534b04c",
+  "name": "pydantic",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/pydantic-1.10.2-py38hb991d35_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9e3946690ac88b6b73e8f001a0586af13568be8852fd514e4393f39761764387",
+        "sha256_in_prefix": "9e3946690ac88b6b73e8f001a0586af13568be8852fd514e4393f39761764387",
+        "size_in_bytes": 1127
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "33b6784922abd89705743e5d9329fdfc2c3ac5446405792d642da5689944b1a6",
+        "sha256_in_prefix": "33b6784922abd89705743e5d9329fdfc2c3ac5446405792d642da5689944b1a6",
+        "size_in_bytes": 140005
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "95e34add0a51477ae8e4bb94e85c840ae30f27e63deab86d1d30a5bb232827da",
+        "sha256_in_prefix": "95e34add0a51477ae8e4bb94e85c840ae30f27e63deab86d1d30a5bb232827da",
+        "size_in_bytes": 6619
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "bbcf79b81e052239b5a6e71c4da3d3979edda2b8e7704632810c48b4a1ebfd3d",
+        "sha256_in_prefix": "bbcf79b81e052239b5a6e71c4da3d3979edda2b8e7704632810c48b4a1ebfd3d",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8faf57eff1767e9ebf1a610e9ff8dcc37b455fc158cbf5d3e9de14a45acfd763",
+        "sha256_in_prefix": "8faf57eff1767e9ebf1a610e9ff8dcc37b455fc158cbf5d3e9de14a45acfd763",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "12ab87e67de98a521783e2cb6b52b87afa6ee7ee9d9efc738babf0be4a00327b",
+        "sha256_in_prefix": "12ab87e67de98a521783e2cb6b52b87afa6ee7ee9d9efc738babf0be4a00327b",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic-1.10.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "726a3fe67d05fd8639b5de673d905f76304436498683fa44e528565d86d7c533",
+        "sha256_in_prefix": "726a3fe67d05fd8639b5de673d905f76304436498683fa44e528565d86d7c533",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__init__.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "59696db05a3240bb5bec7111ee2ea70a701071c4216873832c88791719a460a8",
+        "sha256_in_prefix": "59696db05a3240bb5bec7111ee2ea70a701071c4216873832c88791719a460a8",
+        "size_in_bytes": 82384
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "893bbc0b0596be7eb333fcd826daa189edb83c8996db9ce8922b73ff4ea40d8c",
+        "sha256_in_prefix": "893bbc0b0596be7eb333fcd826daa189edb83c8996db9ce8922b73ff4ea40d8c",
+        "size_in_bytes": 2771
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0273798ccbb1e69f4882046d0863633a9bf563019e432404f92630c28428e3c",
+        "sha256_in_prefix": "f0273798ccbb1e69f4882046d0863633a9bf563019e432404f92630c28428e3c",
+        "size_in_bytes": 2319
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/_hypothesis_plugin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff2561f78a22a2a1581c2a10f6f88a0097f89615d7a4fc12b566c55092487b6f",
+        "sha256_in_prefix": "ff2561f78a22a2a1581c2a10f6f88a0097f89615d7a4fc12b566c55092487b6f",
+        "size_in_bytes": 10125
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/annotated_types.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e1ef9452a21cb62d1d7e6954c79787f81b50cf8522f330f4d08e3c8a73616d0",
+        "sha256_in_prefix": "4e1ef9452a21cb62d1d7e6954c79787f81b50cf8522f330f4d08e3c8a73616d0",
+        "size_in_bytes": 3102
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/class_validators.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "baa084c4ffc928abc56cb50d24bbd59839b098c7063a41c70df40d3ff8b82091",
+        "sha256_in_prefix": "baa084c4ffc928abc56cb50d24bbd59839b098c7063a41c70df40d3ff8b82091",
+        "size_in_bytes": 13293
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/color.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfddf8cd0a74ae05396c777214e9fccc73ce8049fea96c74e33ff99d5d2640d9",
+        "sha256_in_prefix": "cfddf8cd0a74ae05396c777214e9fccc73ce8049fea96c74e33ff99d5d2640d9",
+        "size_in_bytes": 17071
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/config.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0f2f5d03dfe7ad366b6ef96f736e8dc04e19cc5e25499172c334d1b52d55861",
+        "sha256_in_prefix": "a0f2f5d03dfe7ad366b6ef96f736e8dc04e19cc5e25499172c334d1b52d55861",
+        "size_in_bytes": 5996
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/dataclasses.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f4d56cc314b672e4a95ecd1942438d576f99dab1037f7abc195268d7a10d0d8",
+        "sha256_in_prefix": "9f4d56cc314b672e4a95ecd1942438d576f99dab1037f7abc195268d7a10d0d8",
+        "size_in_bytes": 14002
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/datetime_parse.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "060256dd92d1b1a95bdb5461ea294b82307e880414f270d6d32d4989d4d30d5d",
+        "sha256_in_prefix": "060256dd92d1b1a95bdb5461ea294b82307e880414f270d6d32d4989d4d30d5d",
+        "size_in_bytes": 6694
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/decorator.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d09b458db28ac6d0b2ad5b77a368d7027bf52e5900bd4be9d90bcb4bc575cfe",
+        "sha256_in_prefix": "1d09b458db28ac6d0b2ad5b77a368d7027bf52e5900bd4be9d90bcb4bc575cfe",
+        "size_in_bytes": 8655
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/env_settings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5c01bc0ab1741b311653891a297a2d0562e714a37af1e51370b9ba33d1b42472",
+        "sha256_in_prefix": "5c01bc0ab1741b311653891a297a2d0562e714a37af1e51370b9ba33d1b42472",
+        "size_in_bytes": 11705
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/error_wrappers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8325a99b68238077f7ed964b3a7cd3be08cb2d2125a1683d02d9620f3b92648c",
+        "sha256_in_prefix": "8325a99b68238077f7ed964b3a7cd3be08cb2d2125a1683d02d9620f3b92648c",
+        "size_in_bytes": 5878
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a416df3a3747b09d9a1f207ebf64fee3fab3638ddfa76fa7a1cc85d842d2f3c",
+        "sha256_in_prefix": "0a416df3a3747b09d9a1f207ebf64fee3fab3638ddfa76fa7a1cc85d842d2f3c",
+        "size_in_bytes": 25130
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/fields.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "58712f154efb54948550edd7abf9d16f6f5342a456cd9c60a9305e644ec6e944",
+        "sha256_in_prefix": "58712f154efb54948550edd7abf9d16f6f5342a456cd9c60a9305e644ec6e944",
+        "size_in_bytes": 34264
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/generics.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0b6b5a01ce28d98f70cf3c3da8f8d9b4b49b55cbc1ad0b4af2b536d5c9f4241",
+        "sha256_in_prefix": "f0b6b5a01ce28d98f70cf3c3da8f8d9b4b49b55cbc1ad0b4af2b536d5c9f4241",
+        "size_in_bytes": 10889
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/json.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7824e9950a334a035a01935f3764b8c33caf7534ce6b8aef73366ffc4f57fb3e",
+        "sha256_in_prefix": "7824e9950a334a035a01935f3764b8c33caf7534ce6b8aef73366ffc4f57fb3e",
+        "size_in_bytes": 3596
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/main.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fc45c5e22771169966f748beb323c3c2e00794c40337aa5b9561dafc1cb97c4",
+        "sha256_in_prefix": "7fc45c5e22771169966f748beb323c3c2e00794c40337aa5b9561dafc1cb97c4",
+        "size_in_bytes": 29590
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/mypy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0040f8933a5c1fe15f6cb29e087e61fc6d5527d0c287f539e15aa14e5a9560d9",
+        "sha256_in_prefix": "0040f8933a5c1fe15f6cb29e087e61fc6d5527d0c287f539e15aa14e5a9560d9",
+        "size_in_bytes": 26769
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/networks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ee3d50909f9ed77a86a0a62ab9506f82557bca2cf039345407906ca1b964cb4",
+        "sha256_in_prefix": "9ee3d50909f9ed77a86a0a62ab9506f82557bca2cf039345407906ca1b964cb4",
+        "size_in_bytes": 20513
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/parse.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b4bb095e92deb3a2cf8211bab2534ab1e101efe4bb62697f1fec59ea99c10f6f",
+        "sha256_in_prefix": "b4bb095e92deb3a2cf8211bab2534ab1e101efe4bb62697f1fec59ea99c10f6f",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/schema.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "43abecf89b742b4935494385b74d86cc8eb9b67a43b0427cc478c2357eadcf9b",
+        "sha256_in_prefix": "43abecf89b742b4935494385b74d86cc8eb9b67a43b0427cc478c2357eadcf9b",
+        "size_in_bytes": 32331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/tools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "840b3c1402921f7cb93a7ffff4ef86948e475f3aa09c2d18d0b67bf268c3f548",
+        "sha256_in_prefix": "840b3c1402921f7cb93a7ffff4ef86948e475f3aa09c2d18d0b67bf268c3f548",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/types.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4763af1389d9f0b5a7c3f74809ce4ac9812f5bd2b36c08415f3e20bd55d233f9",
+        "sha256_in_prefix": "4763af1389d9f0b5a7c3f74809ce4ac9812f5bd2b36c08415f3e20bd55d233f9",
+        "size_in_bytes": 33459
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/typing.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b6448c16341b573054a39fb4ae8fd454e30532e767149d1ce9e94b9f7d99105",
+        "sha256_in_prefix": "1b6448c16341b573054a39fb4ae8fd454e30532e767149d1ce9e94b9f7d99105",
+        "size_in_bytes": 14613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "36237076e109d613cc89c8853449a44cfba09f64dbb8f6b38efb6a1ebe4a9495",
+        "sha256_in_prefix": "36237076e109d613cc89c8853449a44cfba09f64dbb8f6b38efb6a1ebe4a9495",
+        "size_in_bytes": 27297
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/validators.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a117e38b341277d0a73367ffa5fccaa07d6b24f6f3fe51ad30e660775325b9ea",
+        "sha256_in_prefix": "a117e38b341277d0a73367ffa5fccaa07d6b24f6f3fe51ad30e660775325b9ea",
+        "size_in_bytes": 19318
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e187567fa6f8688bb9a4d57828f949a10a60365079b0dea15d7bdda8b45c401",
+        "sha256_in_prefix": "8e187567fa6f8688bb9a4d57828f949a10a60365079b0dea15d7bdda8b45c401",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/_hypothesis_plugin.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "5cb84b016cb78dffe1ccbf7f22f55f7b3b531b3b567689a4d2d25b1bafb975ab",
+        "sha256_in_prefix": "5cb84b016cb78dffe1ccbf7f22f55f7b3b531b3b567689a4d2d25b1bafb975ab",
+        "size_in_bytes": 268448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/_hypothesis_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "c7862bc0d310e7281a5095e1bb924871fd0e87ff4315cd7b4c0e167bfe9ac285",
+        "sha256_in_prefix": "c7862bc0d310e7281a5095e1bb924871fd0e87ff4315cd7b4c0e167bfe9ac285",
+        "size_in_bytes": 14596
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/annotated_types.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "127450e6ac4dad4ab33121512b81c8761f6325d606fe512a2b90a2044f5d4ff8",
+        "sha256_in_prefix": "127450e6ac4dad4ab33121512b81c8761f6325d606fe512a2b90a2044f5d4ff8",
+        "size_in_bytes": 124416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/annotated_types.py",
+        "path_type": "hardlink",
+        "sha256": "7494c35323e3e10263e2b0dc364b7dc4350c1849009ee5b30de184daaed6c6b7",
+        "sha256_in_prefix": "7494c35323e3e10263e2b0dc364b7dc4350c1849009ee5b30de184daaed6c6b7",
+        "size_in_bytes": 3124
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/class_validators.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "086f3511515d758c136b0e3b53642479f3786b97b335fc49b85e47ff3befe9c7",
+        "sha256_in_prefix": "086f3511515d758c136b0e3b53642479f3786b97b335fc49b85e47ff3befe9c7",
+        "size_in_bytes": 262304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/class_validators.py",
+        "path_type": "hardlink",
+        "sha256": "9af0f8e23d336787bdf7b95eea4babd485b40b1e12b701ca5f925eb35cbbccdd",
+        "sha256_in_prefix": "9af0f8e23d336787bdf7b95eea4babd485b40b1e12b701ca5f925eb35cbbccdd",
+        "size_in_bytes": 13831
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/color.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "95bbeb5f9006620824e02e9dd565520fd13c804e1645297ccc5ee815514e0e98",
+        "sha256_in_prefix": "95bbeb5f9006620824e02e9dd565520fd13c804e1645297ccc5ee815514e0e98",
+        "size_in_bytes": 333120
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/color.py",
+        "path_type": "hardlink",
+        "sha256": "706cdc93b9120f96de06438c85d6b86df4c80a9bade9d331f061a9114e522b96",
+        "sha256_in_prefix": "706cdc93b9120f96de06438c85d6b86df4c80a9bade9d331f061a9114e522b96",
+        "size_in_bytes": 16811
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/config.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "9f5a3fe1d45a9ec38bb774cfae4526cbb7868f544031fdeed050fdd43ae3a361",
+        "sha256_in_prefix": "9f5a3fe1d45a9ec38bb774cfae4526cbb7868f544031fdeed050fdd43ae3a361",
+        "size_in_bytes": 129680
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/config.py",
+        "path_type": "hardlink",
+        "sha256": "eb5d3a8ebac089e827ab23bb424beff308cc4c429a2bf720576c01fa016c93f9",
+        "sha256_in_prefix": "eb5d3a8ebac089e827ab23bb424beff308cc4c429a2bf720576c01fa016c93f9",
+        "size_in_bytes": 6490
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/dataclasses.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "aeb838e938d3e2b3f837671ba18da436a7d790f896f38cf21b012b8685c0edff",
+        "sha256_in_prefix": "aeb838e938d3e2b3f837671ba18da436a7d790f896f38cf21b012b8685c0edff",
+        "size_in_bytes": 282096
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "59e6c35ab5d267ef7ff395faa7ed91ea70bf9029a931d7463943e2a8b0818423",
+        "sha256_in_prefix": "59e6c35ab5d267ef7ff395faa7ed91ea70bf9029a931d7463943e2a8b0818423",
+        "size_in_bytes": 17069
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/datetime_parse.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "38e6186fcd6ccd01b3f459fa22b22c6910d5d07841449b0c7346482b0e06a21e",
+        "sha256_in_prefix": "38e6186fcd6ccd01b3f459fa22b22c6910d5d07841449b0c7346482b0e06a21e",
+        "size_in_bytes": 169136
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/datetime_parse.py",
+        "path_type": "hardlink",
+        "sha256": "0e119f91b1b856ce4ecb1ab7bbc8ccfbb805adbb942ac9fee1a1b60c90c96c7c",
+        "sha256_in_prefix": "0e119f91b1b856ce4ecb1ab7bbc8ccfbb805adbb942ac9fee1a1b60c90c96c7c",
+        "size_in_bytes": 7714
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/decorator.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "c130d2ff9f99f2513c34a8c21b73663dcb09f462826bd5241a9d55d573ed9503",
+        "sha256_in_prefix": "c130d2ff9f99f2513c34a8c21b73663dcb09f462826bd5241a9d55d573ed9503",
+        "size_in_bytes": 218304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "c33b88b8a2875636a213ded805cb42534561a345519543be695bb521411ccc51",
+        "sha256_in_prefix": "c33b88b8a2875636a213ded805cb42534561a345519543be695bb521411ccc51",
+        "size_in_bytes": 10263
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/env_settings.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "8c4529cd4c58b742d90400e773dac67b8f11c1aa3101a4202f0d1a0b35d6478b",
+        "sha256_in_prefix": "8c4529cd4c58b742d90400e773dac67b8f11c1aa3101a4202f0d1a0b35d6478b",
+        "size_in_bytes": 259808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/env_settings.py",
+        "path_type": "hardlink",
+        "sha256": "fb70a0a025518fa58a9ad4886f119b80ac25df030268e8e7cbdb39d4a0b9264d",
+        "sha256_in_prefix": "fb70a0a025518fa58a9ad4886f119b80ac25df030268e8e7cbdb39d4a0b9264d",
+        "size_in_bytes": 13892
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/error_wrappers.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "cac0e4fe8e72d18692ca022c77ed902e5289f20d36b6f3369194820b8819679c",
+        "sha256_in_prefix": "cac0e4fe8e72d18692ca022c77ed902e5289f20d36b6f3369194820b8819679c",
+        "size_in_bytes": 175264
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/error_wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "36f7de985158c7d1052d7046789d3b30a4f6309400245165c7f6c8a15a6a8152",
+        "sha256_in_prefix": "36f7de985158c7d1052d7046789d3b30a4f6309400245165c7f6c8a15a6a8152",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/errors.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "9c38aa4e72310fa3e67f8b6280572d68ce9adf29408795dfa2dea30957432a49",
+        "sha256_in_prefix": "9c38aa4e72310fa3e67f8b6280572d68ce9adf29408795dfa2dea30957432a49",
+        "size_in_bytes": 292432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/errors.py",
+        "path_type": "hardlink",
+        "sha256": "7fddf3df44b8b396c9125f095e1fb314202d2c30a4a3dcdeda129390e8a669af",
+        "sha256_in_prefix": "7fddf3df44b8b396c9125f095e1fb314202d2c30a4a3dcdeda129390e8a669af",
+        "size_in_bytes": 17693
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/fields.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "f66afdfed44779d9bb7e381975bf932db4c7fddd24173c725c7fa4af8c348161",
+        "sha256_in_prefix": "f66afdfed44779d9bb7e381975bf932db4c7fddd24173c725c7fa4af8c348161",
+        "size_in_bytes": 612560
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/fields.py",
+        "path_type": "hardlink",
+        "sha256": "c0d138071116e72b6e1a14dbc3cffc7c9d0061d253f9e69e4cf7c59ff2512cf2",
+        "sha256_in_prefix": "c0d138071116e72b6e1a14dbc3cffc7c9d0061d253f9e69e4cf7c59ff2512cf2",
+        "size_in_bytes": 49818
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/generics.py",
+        "path_type": "hardlink",
+        "sha256": "b1a888bfd036977a7cc4f0ac2c99e9bc31e85a6a65135e9f74b22d9c5ededf23",
+        "sha256_in_prefix": "b1a888bfd036977a7cc4f0ac2c99e9bc31e85a6a65135e9f74b22d9c5ededf23",
+        "size_in_bytes": 16153
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/json.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "9e121837b4abcc4f14edc3d1154f6b2b4da6a0d3ecbb4e91ab720d48eaca243a",
+        "sha256_in_prefix": "9e121837b4abcc4f14edc3d1154f6b2b4da6a0d3ecbb4e91ab720d48eaca243a",
+        "size_in_bytes": 126544
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/json.py",
+        "path_type": "hardlink",
+        "sha256": "074809d9698fab0fba7ecbcf9a0bbeaf08613b2e04d09a5b6d88c2f07474d47a",
+        "sha256_in_prefix": "074809d9698fab0fba7ecbcf9a0bbeaf08613b2e04d09a5b6d88c2f07474d47a",
+        "size_in_bytes": 3346
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/main.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "678b7a6b8a5d7413221e0f761cfa5c41b4d3688fdefb4dbaaed6e7e61245e9a7",
+        "sha256_in_prefix": "678b7a6b8a5d7413221e0f761cfa5c41b4d3688fdefb4dbaaed6e7e61245e9a7",
+        "size_in_bytes": 582784
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/main.py",
+        "path_type": "hardlink",
+        "sha256": "34df3f2a3cdce38b332667fcaf34d05c107f92a1d6c773d74da3e6f8d4aaf66d",
+        "sha256_in_prefix": "34df3f2a3cdce38b332667fcaf34d05c107f92a1d6c773d74da3e6f8d4aaf66d",
+        "size_in_bytes": 44315
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/mypy.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "8d6a8ec2c987e822e7b05a940205654f0b2109dfd671a07532378002fe73494e",
+        "sha256_in_prefix": "8d6a8ec2c987e822e7b05a940205654f0b2109dfd671a07532378002fe73494e",
+        "size_in_bytes": 498736
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/mypy.py",
+        "path_type": "hardlink",
+        "sha256": "0343567c12cd299b78a1b93e791a0213569866537fb71bc5c81a40f732dfd4bd",
+        "sha256_in_prefix": "0343567c12cd299b78a1b93e791a0213569866537fb71bc5c81a40f732dfd4bd",
+        "size_in_bytes": 34739
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/networks.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "441a310d956c918ece679477143a5dec2687e30e8cc207e10c38bd4789aae293",
+        "sha256_in_prefix": "441a310d956c918ece679477143a5dec2687e30e8cc207e10c38bd4789aae293",
+        "size_in_bytes": 370208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/networks.py",
+        "path_type": "hardlink",
+        "sha256": "bbed40405e4da58c87e26832509ad02ab90766da7550cbc2dd7e81dec4c37063",
+        "sha256_in_prefix": "bbed40405e4da58c87e26832509ad02ab90766da7550cbc2dd7e81dec4c37063",
+        "size_in_bytes": 21797
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/parse.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "bd2af502711686cf5a5673221b1703a66cd738edcb1bf893b628a73284acbab7",
+        "sha256_in_prefix": "bd2af502711686cf5a5673221b1703a66cd738edcb1bf893b628a73284acbab7",
+        "size_in_bytes": 102304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/parse.py",
+        "path_type": "hardlink",
+        "sha256": "aeb5616962caf2dd37ad3de8c6f0bab912ee4c5e6267634a1af1aab3889010cd",
+        "sha256_in_prefix": "aeb5616962caf2dd37ad3de8c6f0bab912ee4c5e6267634a1af1aab3889010cd",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/schema.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "67a48d12b804ebe7b1b4493e5cc9f224451a736a72244bca66816bb87ed0d9b9",
+        "sha256_in_prefix": "67a48d12b804ebe7b1b4493e5cc9f224451a736a72244bca66816bb87ed0d9b9",
+        "size_in_bytes": 572288
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/schema.py",
+        "path_type": "hardlink",
+        "sha256": "3f4c27f1a6e38decda7e8414d62eb9a59923cb08dc00acd19c14e571f2125934",
+        "sha256_in_prefix": "3f4c27f1a6e38decda7e8414d62eb9a59923cb08dc00acd19c14e571f2125934",
+        "size_in_bytes": 47146
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/tools.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "799315d0fffd869db8fcdea75818deec030cb01973a8dde79e3ff0fe08f5e5c4",
+        "sha256_in_prefix": "799315d0fffd869db8fcdea75818deec030cb01973a8dde79e3ff0fe08f5e5c4",
+        "size_in_bytes": 108208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/tools.py",
+        "path_type": "hardlink",
+        "sha256": "e05c6aa75f55702360846485ee3ab424977cda4bc68273b4be7e2ac5398aa808",
+        "sha256_in_prefix": "e05c6aa75f55702360846485ee3ab424977cda4bc68273b4be7e2ac5398aa808",
+        "size_in_bytes": 2834
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/types.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "a1439038dec055f6fea02bd796a436a6d313603a53d445df9991ec917a5fbbf9",
+        "sha256_in_prefix": "a1439038dec055f6fea02bd796a436a6d313603a53d445df9991ec917a5fbbf9",
+        "size_in_bytes": 543952
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/types.py",
+        "path_type": "hardlink",
+        "sha256": "7ee10b73ba9cf8a35dd1915109ee542954a52c10b8b8c756afbae13fd974a65c",
+        "sha256_in_prefix": "7ee10b73ba9cf8a35dd1915109ee542954a52c10b8b8c756afbae13fd974a65c",
+        "size_in_bytes": 34748
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/typing.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "30d1ac28f6820c109f08bbab44dfc58653255a8f97359dd3a037bd41d8fcb6a4",
+        "sha256_in_prefix": "30d1ac28f6820c109f08bbab44dfc58653255a8f97359dd3a037bd41d8fcb6a4",
+        "size_in_bytes": 332416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/typing.py",
+        "path_type": "hardlink",
+        "sha256": "ae07fd26c7044723cea34f6bf71c2d4c22be5d48425e6a9467e138358ba71baa",
+        "sha256_in_prefix": "ae07fd26c7044723cea34f6bf71c2d4c22be5d48425e6a9467e138358ba71baa",
+        "size_in_bytes": 19143
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/utils.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b6b0e01f3d07ac16feab1a8c97fbb6a187c86e48e43dae99be91d49c2349f1da",
+        "sha256_in_prefix": "b6b0e01f3d07ac16feab1a8c97fbb6a187c86e48e43dae99be91d49c2349f1da",
+        "size_in_bytes": 471584
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5b734718bed2bbb75c3ca301f3a034b606784dbe69b04ff6941f2b1d15946cdd",
+        "sha256_in_prefix": "5b734718bed2bbb75c3ca301f3a034b606784dbe69b04ff6941f2b1d15946cdd",
+        "size_in_bytes": 27098
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/validators.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b8ba91ef91d9ffa310d2ac7253a915775b5f86f8ac3595ab42f3c9d6f411dc2f",
+        "sha256_in_prefix": "b8ba91ef91d9ffa310d2ac7253a915775b5f86f8ac3595ab42f3c9d6f411dc2f",
+        "size_in_bytes": 464208
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/validators.py",
+        "path_type": "hardlink",
+        "sha256": "4096885548037cc8aca3b619f9858cacdc2a4ef2e81b0cc3318f23b694dabf57",
+        "sha256_in_prefix": "4096885548037cc8aca3b619f9858cacdc2a4ef2e81b0cc3318f23b694dabf57",
+        "size_in_bytes": 21874
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/version.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b626ee456aa72fb69bfbc432389ef00b6139bb54c48aa3642c0fd59b891b0d95",
+        "sha256_in_prefix": "b626ee456aa72fb69bfbc432389ef00b6139bb54c48aa3642c0fd59b891b0d95",
+        "size_in_bytes": 102032
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydantic/version.py",
+        "path_type": "hardlink",
+        "sha256": "3c3934e48d716a90b03fe12b34d47ba5d0dc268f1155a6bbdc1eb6d348aca87d",
+        "sha256_in_prefix": "3c3934e48d716a90b03fe12b34d47ba5d0dc268f1155a6bbdc1eb6d348aca87d",
+        "size_in_bytes": 1038
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9a5e9989fa26ee6e846d02d1eaacf971db3347184b68fcd5e64809e67bb91e01",
+  "size": 2257113,
+  "subdir": "osx-arm64",
+  "timestamp": 1666755534283,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/pydantic-1.10.2-py38hb991d35_1.tar.bz2",
+  "version": "1.10.2"
+}

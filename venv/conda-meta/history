@@ -50,3 +50,84 @@
 +conda-forge/osx-arm64::numpy-1.23.5-py38h09ac2d9_0
 +conda-forge/osx-arm64::pandas-1.5.1-py38h61dac83_1
 # update specs: ['pandas']
+==> 2022-11-23 11:23:09 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install scikit-learn
+# conda version: 4.13.0
++conda-forge/noarch::joblib-1.2.0-pyhd8ed1ab_0
++conda-forge/noarch::threadpoolctl-3.1.0-pyh8a188c0_0
++conda-forge/osx-arm64::scikit-learn-1.1.3-py38h0c332d6_1
++conda-forge/osx-arm64::scipy-1.9.3-py38h7b4f323_2
+# update specs: ['scikit-learn']
+==> 2022-11-25 13:40:27 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install yaml
+# conda version: 4.13.0
++conda-forge/osx-arm64::yaml-0.2.5-h3422bc3_2
+# update specs: ['yaml']
+==> 2022-11-25 13:42:07 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install PyYAML
+# conda version: 4.13.0
++conda-forge/osx-arm64::pyyaml-6.0-py38hb991d35_5
+# update specs: ['pyyaml']
+==> 2022-11-27 21:08:28 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install imbalanced-learn
+# conda version: 4.13.0
++conda-forge/noarch::imbalanced-learn-0.9.1-pyhd8ed1ab_1
+# update specs: ['imbalanced-learn']
+==> 2022-11-27 21:23:59 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install dill
+# conda version: 4.13.0
++conda-forge/noarch::dill-0.3.6-pyhd8ed1ab_1
+# update specs: ['dill']
+==> 2022-11-28 16:33:20 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install xgboost
+# conda version: 4.13.0
++conda-forge/osx-arm64::_py-xgboost-mutex-2.0-cpu_0
++conda-forge/osx-arm64::libxgboost-1.7.1-cpu_h13cf1d8_0
++conda-forge/osx-arm64::py-xgboost-1.7.1-cpu_py38h970ee7d_0
++conda-forge/osx-arm64::xgboost-1.7.1-cpu_py38hfea8814_0
+# update specs: ['xgboost']
+==> 2022-11-30 15:53:36 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install fastapi
+# conda version: 4.13.0
++conda-forge/noarch::anyio-3.6.2-pyhd8ed1ab_0
++conda-forge/noarch::fastapi-0.88.0-pyhd8ed1ab_0
++conda-forge/noarch::sniffio-1.3.0-pyhd8ed1ab_0
++conda-forge/noarch::starlette-0.22.0-pyhd8ed1ab_0
++conda-forge/noarch::typing-extensions-4.4.0-hd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.4.0-pyha770c72_0
++conda-forge/osx-arm64::pydantic-1.10.2-py38hb991d35_1
+# update specs: ['fastapi']
+==> 2022-11-30 15:58:44 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install uvicorn
+# conda version: 4.13.0
++conda-forge/noarch::click-8.1.3-unix_pyhd8ed1ab_2
++conda-forge/noarch::h11-0.14.0-pyhd8ed1ab_0
++conda-forge/osx-arm64::uvicorn-0.20.0-py38h10201cd_1
+# update specs: ['uvicorn']
+==> 2022-11-30 18:43:28 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install flask
+# conda version: 4.13.0
++conda-forge/noarch::flask-2.2.2-pyhd8ed1ab_0
++conda-forge/noarch::importlib-metadata-5.1.0-pyha770c72_0
++conda-forge/noarch::itsdangerous-2.1.2-pyhd8ed1ab_0
++conda-forge/noarch::jinja2-3.1.2-pyhd8ed1ab_1
++conda-forge/noarch::werkzeug-2.2.2-pyhd8ed1ab_0
++conda-forge/noarch::zipp-3.11.0-pyhd8ed1ab_0
++conda-forge/osx-arm64::markupsafe-2.1.1-py38hb991d35_2
+# update specs: ['flask']
+==> 2022-12-04 21:58:03 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install python-multipart
+# conda version: 4.13.0
+-conda-forge/osx-arm64::openssl-3.0.7-h03a7124_0
++conda-forge/noarch::python-multipart-0.0.5-py_0
++conda-forge/osx-arm64::openssl-3.0.7-h03a7124_1
+# update specs: ['python-multipart']
+==> 2022-12-11 21:52:38 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install dataclasses
+# conda version: 4.13.0
+-conda-forge/noarch::certifi-2022.9.24-pyhd8ed1ab_0
+-conda-forge/osx-arm64::ca-certificates-2022.9.24-h4653dfc_0
++conda-forge/noarch::certifi-2022.12.7-pyhd8ed1ab_0
++conda-forge/noarch::dataclasses-0.8-pyhc8e2a94_3
++conda-forge/osx-arm64::ca-certificates-2022.12.7-h4653dfc_0
+# update specs: ['dataclasses']
